@@ -58,11 +58,29 @@
     <Compile Include="Forms\AgregarTrabajoForm.Designer.cs">
       <DependentUpon>AgregarTrabajoForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\Bitacora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Bitacora.Designer.cs">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ControlAsistencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ControlAsistencia.Designer.cs">
+      <DependentUpon>ControlAsistencia.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\DetalleTrabajoForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Forms\DetalleTrabajoForm.Designer.cs">
       <DependentUpon>DetalleTrabajoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Empleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\EncargadosForm.cs">
       <SubType>Form</SubType>
@@ -81,6 +99,12 @@
     </Compile>
     <Compile Include="Forms\InventarioForm.Designer.cs">
       <DependentUpon>InventarioForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\ManodeObra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\ManodeObra.Designer.cs">
+      <DependentUpon>ManodeObra.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\PresupuestoForm.cs">
       <SubType>Form</SubType>
@@ -106,8 +130,17 @@
     <EmbeddedResource Include="Forms\AgregarTrabajoForm.resx">
       <DependentUpon>AgregarTrabajoForm.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Bitacora.resx">
+      <DependentUpon>Bitacora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ControlAsistencia.resx">
+      <DependentUpon>ControlAsistencia.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\DetalleTrabajoForm.resx">
       <DependentUpon>DetalleTrabajoForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Empleados.resx">
+      <DependentUpon>Empleados.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\EncargadosForm.resx">
       <DependentUpon>EncargadosForm.cs</DependentUpon>
@@ -117,6 +150,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\InventarioForm.resx">
       <DependentUpon>InventarioForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\ManodeObra.resx">
+      <DependentUpon>ManodeObra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PresupuestoForm.resx">
       <DependentUpon>PresupuestoForm.cs</DependentUpon>
