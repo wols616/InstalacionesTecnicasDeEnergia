@@ -37,5 +37,10 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             frm.Show();
             this.Hide();
         }
+
+        private void txtNombreCliente_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

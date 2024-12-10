@@ -55,7 +55,9 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void btnEmpleados_Click(object sender, EventArgs e)
         {
-
+            EmpleadosForm empleados = new EmpleadosForm();
+            empleados.Show();
+            this.Hide();
         }
 
         private void btnInventario_Click(object sender, EventArgs e)

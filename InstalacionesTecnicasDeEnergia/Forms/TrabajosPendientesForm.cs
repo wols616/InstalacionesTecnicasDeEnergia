@@ -7,14 +7,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using InstalacionesTecnicasDeEnergia.Models;
 
 namespace InstalacionesTecnicasDeEnergia.Forms
 {
     public partial class TrabajosPendientesForm : Form
     {
+        Trabajo trabajoPendiente;
         public TrabajosPendientesForm()
         {
             InitializeComponent();
+            configurarFormulario();
+        }
+
+        public TrabajosPendientesForm(Trabajo trabajo)
+        {
+            InitializeComponent();
+            configurarFormulario();
+
+            trabajoPendiente = trabajo;
+        }
+
+        private void configurarFormulario()
+        {
             //Ancho de la pantalla
             int widthDisplay = (int)(Screen.PrimaryScreen.Bounds.Width * 0.40);
             int heighDisplay = (int)(Screen.PrimaryScreen.Bounds.Height * 0.60);

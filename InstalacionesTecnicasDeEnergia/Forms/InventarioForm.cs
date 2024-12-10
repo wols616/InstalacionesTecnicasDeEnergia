@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MongoDB.Driver;
+using InstalacionesTecnicasDeEnergia.Models;
 
 namespace InstalacionesTecnicasDeEnergia.Forms
 {
@@ -15,6 +17,12 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         public InventarioForm()
         {
             InitializeComponent();
+            configurarFormulario();
+        }
+
+        private void configurarFormulario()
+        {
+            MessageBox.Show("PRUEBA");
             //Ancho de la pantalla
             int widthDisplay = (int)(Screen.PrimaryScreen.Bounds.Width * 0.75);
             int heighDisplay = (int)(Screen.PrimaryScreen.Bounds.Height * 0.75);
@@ -30,10 +38,50 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             this.panel1.Width = Width;
             this.label1.Left = (Width - label1.Width) - 20;
 
+            // Definición de los datos de los combo box
+            try
+            {
+                List<CategoriaMaterial> categorias = Conexion.CategoriaMaterialDb.Find(d => true).ToList();
+
+                this.cbxCategoria.DataSource = categorias;
+                this.cbxCategoria.DisplayMember = "Nombre";
+                this.cbxCategoria.ValueMember = "Id";
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al cargar categorias: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
 
         }
 
+
         private void InventarioForm_Resize(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            Material material = new Material();
+
+            material.Nombre = this.txtNombreMaterial.Text;
+            material.Descripcion = this.txt_descripcion.Text;
+            material.CategoriaId = this.cbxCategoria.ValueMember.ToString();
+            material.Cantidad = int.Parse(this.textCantidad.Text);
+            material.PrecioCompra = double.Parse(this.textCosto.Text);
+            material.Marca = this.txtProveedor.Text;
+            material.FechaCompra = this.dateTimePicker1.Value;
+
+            Conexion.MaterialDb.InsertOne(material);
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
         }

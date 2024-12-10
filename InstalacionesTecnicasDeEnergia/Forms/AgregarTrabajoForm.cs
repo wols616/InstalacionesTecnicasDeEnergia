@@ -8,6 +8,7 @@ using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using InstalacionesTecnicasDeEnergia.Models;
 
 namespace InstalacionesTecnicasDeEnergia.Forms
 {
@@ -34,20 +35,33 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void AgregarTrabajoForm_Resize(object sender, EventArgs e)
         {
-            ////Esta función hace que el tamaño del panel y posición de los elementos cambie al momento de redimencionar la ventana
-            //this.panel1.Width = this.ClientSize.Width;
-            //this.label1.Left = (this.ClientSize.Width - label1.Width) - 20;
-            //this.pbLogo.Left = 20;
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            PresupuestoForm frm = new PresupuestoForm();
+            string nombreCliente = this.txtNombreCliente.Text;
+            string lugarProyecto = this.txtLugarProyecto.Text;
+            DateTime fecha = this.dateTimePicker1.Value;
+            string descripcion = this.textBox1.Text;
+
+            Trabajo trabajo = new Trabajo();
+            trabajo.NombreCliente = nombreCliente;
+            trabajo.Lugar = lugarProyecto;
+            trabajo.Fecha = fecha;
+            trabajo.DescripcionProyecto = descripcion;
+            trabajo.Estado = "Pendiente";
+
+            PresupuestoForm frm = new PresupuestoForm(trabajo);
             frm.Show();
             this.Hide();
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void txtNombreCliente_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -30,5 +30,10 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             this.panel1.Width = Width;
             this.label1.Left = (Width - label1.Width) - 20;
         }
+
+        private void DetalleTrabajoForm_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

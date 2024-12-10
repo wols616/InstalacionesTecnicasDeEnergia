@@ -47,28 +47,32 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(559, 47);
+            this.label1.Location = new System.Drawing.Point(745, 58);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(219, 42);
+            this.label1.Size = new System.Drawing.Size(274, 54);
             this.label1.TabIndex = 0;
             this.label1.Text = "Encargados";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(35)))), ((int)(((byte)(150)))), ((int)(((byte)(152)))));
             this.panel1.Controls.Add(this.pbLogo);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(2, 0);
+            this.panel1.Location = new System.Drawing.Point(3, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(799, 126);
+            this.panel1.Size = new System.Drawing.Size(1065, 155);
             this.panel1.TabIndex = 3;
             // 
             // pbLogo
             // 
             this.pbLogo.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.Logo_Moo;
-            this.pbLogo.Location = new System.Drawing.Point(11, 26);
+            this.pbLogo.Location = new System.Drawing.Point(15, 32);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(60, 63);
+            this.pbLogo.Size = new System.Drawing.Size(80, 78);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 1;
             this.pbLogo.TabStop = false;
@@ -76,52 +80,61 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(38, 157);
+            this.dataGridView1.Location = new System.Drawing.Point(51, 193);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(714, 228);
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.Size = new System.Drawing.Size(952, 281);
             this.dataGridView1.TabIndex = 0;
             // 
             // cbxEmpleado
             // 
             this.cbxEmpleado.FormattingEnabled = true;
-            this.cbxEmpleado.Location = new System.Drawing.Point(38, 422);
+            this.cbxEmpleado.Location = new System.Drawing.Point(51, 519);
+            this.cbxEmpleado.Margin = new System.Windows.Forms.Padding(4);
             this.cbxEmpleado.Name = "cbxEmpleado";
-            this.cbxEmpleado.Size = new System.Drawing.Size(179, 21);
+            this.cbxEmpleado.Size = new System.Drawing.Size(237, 24);
             this.cbxEmpleado.TabIndex = 4;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(38, 406);
+            this.label2.Location = new System.Drawing.Point(51, 500);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(113, 13);
+            this.label2.Size = new System.Drawing.Size(146, 16);
             this.label2.TabIndex = 5;
             this.label2.Text = "Nombre del empleado:";
             // 
             // btnAsignar
             // 
-            this.btnAsignar.Location = new System.Drawing.Point(241, 422);
+            this.btnAsignar.Location = new System.Drawing.Point(321, 519);
+            this.btnAsignar.Margin = new System.Windows.Forms.Padding(4);
             this.btnAsignar.Name = "btnAsignar";
-            this.btnAsignar.Size = new System.Drawing.Size(75, 23);
+            this.btnAsignar.Size = new System.Drawing.Size(100, 28);
             this.btnAsignar.TabIndex = 6;
             this.btnAsignar.Text = "Asignar";
             this.btnAsignar.UseVisualStyleBackColor = true;
+            this.btnAsignar.Click += new System.EventHandler(this.btnAsignar_Click);
             // 
             // btnDesasignar
             // 
-            this.btnDesasignar.Location = new System.Drawing.Point(333, 422);
+            this.btnDesasignar.Location = new System.Drawing.Point(444, 519);
+            this.btnDesasignar.Margin = new System.Windows.Forms.Padding(4);
             this.btnDesasignar.Name = "btnDesasignar";
-            this.btnDesasignar.Size = new System.Drawing.Size(75, 23);
+            this.btnDesasignar.Size = new System.Drawing.Size(100, 28);
             this.btnDesasignar.TabIndex = 7;
             this.btnDesasignar.Text = "Desasignar";
             this.btnDesasignar.UseVisualStyleBackColor = true;
+            this.btnDesasignar.Click += new System.EventHandler(this.btnDesasignar_Click);
             // 
             // btnFinalizar
             // 
             this.btnFinalizar.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnFinalizar.Location = new System.Drawing.Point(311, 501);
+            this.btnFinalizar.Location = new System.Drawing.Point(415, 617);
+            this.btnFinalizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnFinalizar.Name = "btnFinalizar";
-            this.btnFinalizar.Size = new System.Drawing.Size(165, 23);
+            this.btnFinalizar.Size = new System.Drawing.Size(220, 28);
             this.btnFinalizar.TabIndex = 8;
             this.btnFinalizar.Text = "Finalizar";
             this.btnFinalizar.UseVisualStyleBackColor = false;
@@ -129,9 +142,9 @@
             // 
             // EncargadosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 593);
+            this.ClientSize = new System.Drawing.Size(1091, 730);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.btnDesasignar);
             this.Controls.Add(this.btnAsignar);
@@ -139,6 +152,7 @@
             this.Controls.Add(this.cbxEmpleado);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EncargadosForm";
             this.Text = "EncargadosForm";
             this.panel1.ResumeLayout(false);

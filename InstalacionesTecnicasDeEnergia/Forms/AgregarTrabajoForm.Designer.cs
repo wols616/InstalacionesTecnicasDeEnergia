@@ -52,7 +52,7 @@
             // 
             this.pbLogo.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.Logo_Moo;
             this.pbLogo.Location = new System.Drawing.Point(15, 32);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
             this.pbLogo.Name = "pbLogo";
             this.pbLogo.Size = new System.Drawing.Size(80, 78);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -77,7 +77,7 @@
             this.panel1.Controls.Add(this.pbLogo);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(3, -1);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1065, 155);
             this.panel1.TabIndex = 1;
@@ -96,15 +96,16 @@
             // txtNombreCliente
             // 
             this.txtNombreCliente.Location = new System.Drawing.Point(71, 244);
-            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.Size = new System.Drawing.Size(389, 22);
             this.txtNombreCliente.TabIndex = 3;
+            this.txtNombreCliente.TextChanged += new System.EventHandler(this.txtNombreCliente_TextChanged);
             // 
             // txtLugarProyecto
             // 
             this.txtLugarProyecto.Location = new System.Drawing.Point(71, 318);
-            this.txtLugarProyecto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLugarProyecto.Margin = new System.Windows.Forms.Padding(4);
             this.txtLugarProyecto.Name = "txtLugarProyecto";
             this.txtLugarProyecto.Size = new System.Drawing.Size(389, 22);
             this.txtLugarProyecto.TabIndex = 5;
@@ -132,7 +133,7 @@
             // dateTimePicker1
             // 
             this.dateTimePicker1.Location = new System.Drawing.Point(71, 385);
-            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(4);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(389, 22);
             this.dateTimePicker1.TabIndex = 7;
@@ -150,7 +151,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(71, 460);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(389, 64);
@@ -160,7 +161,7 @@
             // 
             this.btnSiguiente.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnSiguiente.Location = new System.Drawing.Point(71, 553);
-            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(391, 28);
             this.btnSiguiente.TabIndex = 10;
@@ -171,7 +172,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Location = new System.Drawing.Point(492, 244);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(275, 337);
             this.pictureBox1.TabIndex = 11;
@@ -180,7 +181,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Location = new System.Drawing.Point(776, 244);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(275, 337);
             this.pictureBox2.TabIndex = 12;
@@ -190,7 +191,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 660);
+            this.ClientSize = new System.Drawing.Size(1424, 660);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.btnSiguiente);
@@ -204,9 +205,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "AgregarTrabajoForm";
             this.Text = "AgregarTrabajoForm";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Resize += new System.EventHandler(this.AgregarTrabajoForm_Resize);
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();
             this.panel1.ResumeLayout(false);
