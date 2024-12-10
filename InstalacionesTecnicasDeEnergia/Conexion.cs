@@ -10,20 +10,20 @@ namespace InstalacionesTecnicasDeEnergia
 {
     internal class Conexion
     {
-        public MongoClient client;
-        public IMongoDatabase db;
+        //public MongoClient client;
+        //public IMongoDatabase db;
 
-        public static IMongoCollection<Empleado> EmpleadoDb { get; set; }
-        public static IMongoCollection<Material> MaterialDb { get; set; }
-        public static IMongoCollection<CategoriaMaterial> CategoriaMaterialDb { get; set; }
-        public static IMongoCollection<Bitacora> BitacoraDb { get; set; }
-        public static IMongoCollection<ManoObra> ManoObraDb { get; set; }
-        public static IMongoCollection<Trabajo> TrabajoDb { get; set; }
+        public IMongoCollection<Empleado> EmpleadoDb { get; set; }
+        public IMongoCollection<Material> MaterialDb { get; set; }
+        public IMongoCollection<CategoriaMaterial> CategoriaMaterialDb { get; set; }
+        public IMongoCollection<Bitacora> BitacoraDb { get; set; }
+        public IMongoCollection<ManoObra> ManoObraDb { get; set; }
+        public IMongoCollection<Trabajo> TrabajoDb { get; set; }
 
         public Conexion()
         {
-            client = new MongoClient("mongodb://localhost:27017");
-            db = client.GetDatabase("ITEDB");
+            var client = new MongoClient("mongodb://localhost:27017");
+            var db = client.GetDatabase("ITEDB");
 
 
             EmpleadoDb = db.GetCollection<Empleado>("Empleado");

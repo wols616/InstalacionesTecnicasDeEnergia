@@ -22,7 +22,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void configurarFormulario()
         {
-            MessageBox.Show("PRUEBA");
+            Conexion conexion = new Conexion();
             //Ancho de la pantalla
             int widthDisplay = (int)(Screen.PrimaryScreen.Bounds.Width * 0.75);
             int heighDisplay = (int)(Screen.PrimaryScreen.Bounds.Height * 0.75);
@@ -41,7 +41,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             // Definición de los datos de los combo box
             try
             {
-                List<CategoriaMaterial> categorias = Conexion.CategoriaMaterialDb.Find(d => true).ToList();
+                List<CategoriaMaterial> categorias = conexion.CategoriaMaterialDb.Find(d => true).ToList();
 
                 this.cbxCategoria.DataSource = categorias;
                 this.cbxCategoria.DisplayMember = "Nombre";
@@ -68,17 +68,18 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            Conexion conexion = new Conexion();
             Material material = new Material();
 
             material.Nombre = this.txtNombreMaterial.Text;
             material.Descripcion = this.txt_descripcion.Text;
-            material.CategoriaId = this.cbxCategoria.ValueMember.ToString();
+            material.CategoriaId = this.cbxCategoria.SelectedValue.ToString();
             material.Cantidad = int.Parse(this.textCantidad.Text);
             material.PrecioCompra = double.Parse(this.textCosto.Text);
             material.Marca = this.txtProveedor.Text;
             material.FechaCompra = this.dateTimePicker1.Value;
 
-            Conexion.MaterialDb.InsertOne(material);
+            //conexion.MaterialDb.InsertOne(material);
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)

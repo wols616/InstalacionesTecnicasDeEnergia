@@ -120,8 +120,8 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
                 try
                 {
-                    //Metiendo el empleado a la bd
-                    Conexion.EmpleadoDb.InsertOne(empleado);
+                    Conexion conexion = new Conexion();
+                    conexion.EmpleadoDb.InsertOne(empleado);
                 }
                 catch (Exception ex)
                 {

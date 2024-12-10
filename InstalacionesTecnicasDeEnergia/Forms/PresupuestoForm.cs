@@ -15,6 +15,8 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 {
     public partial class PresupuestoForm : Form
     {
+        Conexion conexion = new Conexion();
+
         Trabajo trabajoPendiente = new Trabajo();
 
         public PresupuestoForm()
@@ -67,7 +69,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             // Definición de los datos de los combo box
             try
             {
-                var materiales = Conexion.MaterialDb.Find(_ => true).ToList();
+                var materiales = conexion.MaterialDb.Find(_ => true).ToList();
 
                 this.cbxMaterial.DataSource = materiales;
                 this.cbxMaterial.DisplayMember = "Nombre";
@@ -79,7 +81,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
             try
             {
-                var materiales = Conexion.ManoObraDb.Find(_ => true).ToList();
+                var materiales = conexion.ManoObraDb.Find(_ => true).ToList();
 
                 this.cbxObra.DataSource = materiales;
                 this.cbxObra.DisplayMember = "Nombre";

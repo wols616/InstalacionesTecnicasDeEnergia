@@ -35,8 +35,9 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void btnFinalizar_Click(object sender, EventArgs e)
         {
+            Conexion conexion = new Conexion();
             llenarListaEncargados();
-            Conexion.TrabajoDb.InsertOne(trabajo);
+            conexion.TrabajoDb.InsertOne(trabajo);
 
             TrabajosPendientesForm frm = new TrabajosPendientesForm();
             frm.Show();
