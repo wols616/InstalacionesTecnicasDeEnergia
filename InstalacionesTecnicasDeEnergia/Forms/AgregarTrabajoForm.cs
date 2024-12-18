@@ -65,5 +65,12 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         {
 
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            HomeForm frm = new HomeForm();
+            frm.Show();
+            this.Hide();
+        }
     }
 }

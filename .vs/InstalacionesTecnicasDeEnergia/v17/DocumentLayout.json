@@ -3,88 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\wilber\\onedrive\\desktop\\cu\\complementouniversal\\chambas\\instalacioneselectricas\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\conexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\trabajosrealizadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\trabajosrealizadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\trabajosrealizadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\trabajosrealizadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\presupuestoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\presupuestoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\presupuestoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\presupuestoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\manodeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\manodeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\manodeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\manodeobra.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\inventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\inventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\inventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\wilber\\onedrive\\desktop\\cu\\complementouniversal\\chambas\\instalacioneselectricas\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\inventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\inventarioform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\wilber\\onedrive\\desktop\\cu\\complementouniversal\\chambas\\instalacioneselectricas\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\agregarcategoriamaterialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\agregarcategoriamaterialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\wilber\\onedrive\\desktop\\cu\\complementouniversal\\chambas\\instalacioneselectricas\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\agregarcategoriamaterialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\agregarcategoriamaterialform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\encargadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\encargadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\encargadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\encargadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\controlasistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\controlasistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\controlasistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\controlasistencia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\bitacora.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\wilber\\onedrive\\desktop\\cu\\complementouniversal\\chambas\\instalacioneselectricas\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\models\\material.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -94,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -114,246 +50,66 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Conexion.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Conexion.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Conexion.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Conexion.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Conexion.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAABUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:49:52.347Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TrabajosRealizadosForm.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAqwBUAAABMAAAAAAAAAA==",
+              "Title": "InventarioForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs",
+              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs [Design]",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:42:35.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrabajosRealizadosForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:42:34.196Z"
+              "WhenOpened": "2024-12-18T16:35:43.734Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "TrabajosPendientesForm.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAIwAAAAAAAAAAAAAAAAA==",
+              "Title": "AgregarCategoriaMaterialForm.cs",
+              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\AgregarCategoriaMaterialForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\AgregarCategoriaMaterialForm.cs",
+              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\AgregarCategoriaMaterialForm.cs",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\AgregarCategoriaMaterialForm.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAAwDwAAABVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:42:31.628Z"
+              "WhenOpened": "2024-12-18T16:27:15.928Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TrabajosPendientesForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "AgregarCategoriaMaterialForm.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\AgregarCategoriaMaterialForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\AgregarCategoriaMaterialForm.cs",
+              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\AgregarCategoriaMaterialForm.cs [Design]",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\AgregarCategoriaMaterialForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:42:04.987Z"
+              "WhenOpened": "2024-12-18T16:26:33.354Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PresupuestoForm.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
-              "ViewState": "AgIAAGkAAAAAAAAAAAAmwFYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:42:01.925Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "PresupuestoForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:42:01.08Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ManodeObra.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ManodeObra.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\ManodeObra.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ManodeObra.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\ManodeObra.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:59.303Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ManodeObra.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ManodeObra.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\ManodeObra.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ManodeObra.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ManodeObra.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:58.397Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "InventarioForm.cs",
               "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs",
               "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs",
               "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs",
               "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs",
-              "ViewState": "AgIAACoAAAAAAAAAAAAowAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFoAAAAAAAAAAAAQwGEAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:56Z"
+              "WhenOpened": "2024-12-10T00:41:56Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "InventarioForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\InventarioForm.cs [Design]",
+              "DocumentIndex": 4,
+              "Title": "Material.cs",
+              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Models\\Material.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Models\\Material.cs",
+              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Models\\Material.cs",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Models\\Material.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAUwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:54.896Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "HomeForm.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs",
-              "ViewState": "AgIAAEoAAAAAAAAAAAA8wAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:52.313Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "HomeForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:32.417Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EncargadosForm.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "ViewState": "AgIAADEAAAAAAAAAAAAUwCcAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:30.162Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "EncargadosForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:29.13Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "EmpleadosForm.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:26.902Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "EmpleadosForm.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:25.917Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "ControlAsistencia.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ControlAsistencia.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\ControlAsistencia.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ControlAsistencia.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\ControlAsistencia.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:24.153Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "ControlAsistencia.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ControlAsistencia.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\ControlAsistencia.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ControlAsistencia.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\ControlAsistencia.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:23.03Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Bitacora.cs",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\Bitacora.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\Bitacora.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\Bitacora.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\Bitacora.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:21.358Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "Bitacora.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\InstalacionesElectricas\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\Bitacora.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\Bitacora.cs",
-              "ToolTip": "C:\\Users\\wilber\\OneDrive\\Desktop\\CU\\ComplementoUniversal\\chambas\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\Bitacora.cs [Design]",
-              "RelativeToolTip": "..\\..\\ITE\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\Bitacora.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T00:41:20.056Z"
+              "WhenOpened": "2024-12-18T15:10:30.603Z",
+              "EditorCaption": ""
             }
           ]
         }

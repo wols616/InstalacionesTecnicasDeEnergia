@@ -31,9 +31,6 @@ namespace InstalacionesTecnicasDeEnergia.Models
         [BsonElement("descripcion")]
         public string Descripcion { get; set; }
 
-        //[BsonElement("especificaciones")]
-        //public Dictionary<string, string> Especificaciones { get; set; }
-
         [BsonElement("cantidad")]
         public int Cantidad { get; set; }
 

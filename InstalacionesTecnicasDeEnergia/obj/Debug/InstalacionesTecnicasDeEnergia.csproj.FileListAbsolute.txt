@@ -183,3 +183,4 @@ C:\Users\wilber\OneDrive\Desktop\CU\ComplementoUniversal\chambas\InstalacionesEl
 C:\Users\wilber\OneDrive\Desktop\CU\ComplementoUniversal\chambas\InstalacionesElectricas\InstalacionesTecnicasDeEnergia\InstalacionesTecnicasDeEnergia\obj\Debug\Instalac.19D294D2.Up2Date
 C:\Users\wilber\OneDrive\Desktop\CU\ComplementoUniversal\chambas\InstalacionesElectricas\InstalacionesTecnicasDeEnergia\InstalacionesTecnicasDeEnergia\obj\Debug\InstalacionesTecnicasDeEnergia.exe
 C:\Users\wilber\OneDrive\Desktop\CU\ComplementoUniversal\chambas\InstalacionesElectricas\InstalacionesTecnicasDeEnergia\InstalacionesTecnicasDeEnergia\obj\Debug\InstalacionesTecnicasDeEnergia.pdb
+C:\Users\wilber\OneDrive\Desktop\CU\ComplementoUniversal\chambas\InstalacionesElectricas\InstalacionesTecnicasDeEnergia\InstalacionesTecnicasDeEnergia\obj\Debug\InstalacionesTecnicasDeEnergia.Forms.AgregarCategoriaMaterialForm.resources
