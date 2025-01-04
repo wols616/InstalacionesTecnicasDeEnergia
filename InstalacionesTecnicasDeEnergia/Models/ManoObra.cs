@@ -17,14 +17,15 @@ namespace InstalacionesTecnicasDeEnergia.Models
         [BsonElement("nombre")]
         public string Nombre { get; set; }
 
+        [BsonElement("categoria_id")]
+        [BsonRepresentation(BsonType.ObjectId)]
+        public string CategoriaId { get; set; }
+
         [BsonElement("descripcion")]
         public string Descripcion { get; set; }
 
-        [BsonElement("categoria")]
-        public string Categoria { get; set; }
-
         [BsonElement("precio")]
-        public string Precio { get; set; }
+        public Double Precio { get; set; }
 
     }
 }

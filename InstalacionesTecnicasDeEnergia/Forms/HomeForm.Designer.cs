@@ -83,7 +83,7 @@
             // 
             // btnAgregarTrabajo
             // 
-            this.btnAgregarTrabajo.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnAgregarTrabajo.BackColor = System.Drawing.SystemColors.Control;
             this.btnAgregarTrabajo.Location = new System.Drawing.Point(75, 136);
             this.btnAgregarTrabajo.Name = "btnAgregarTrabajo";
             this.btnAgregarTrabajo.Size = new System.Drawing.Size(178, 48);
@@ -94,7 +94,7 @@
             // 
             // btnTrabajosPendientes
             // 
-            this.btnTrabajosPendientes.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnTrabajosPendientes.BackColor = System.Drawing.SystemColors.Control;
             this.btnTrabajosPendientes.Location = new System.Drawing.Point(75, 202);
             this.btnTrabajosPendientes.Name = "btnTrabajosPendientes";
             this.btnTrabajosPendientes.Size = new System.Drawing.Size(178, 48);
@@ -105,7 +105,7 @@
             // 
             // btnTrabajosRealizados
             // 
-            this.btnTrabajosRealizados.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnTrabajosRealizados.BackColor = System.Drawing.SystemColors.Control;
             this.btnTrabajosRealizados.Location = new System.Drawing.Point(75, 266);
             this.btnTrabajosRealizados.Name = "btnTrabajosRealizados";
             this.btnTrabajosRealizados.Size = new System.Drawing.Size(178, 48);
@@ -116,12 +116,13 @@
             // 
             // btnEmpleados
             // 
+            this.btnEmpleados.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnEmpleados.Location = new System.Drawing.Point(75, 327);
             this.btnEmpleados.Name = "btnEmpleados";
             this.btnEmpleados.Size = new System.Drawing.Size(178, 48);
             this.btnEmpleados.TabIndex = 4;
             this.btnEmpleados.Text = "Ver Empleados";
-            this.btnEmpleados.UseVisualStyleBackColor = true;
+            this.btnEmpleados.UseVisualStyleBackColor = false;
             this.btnEmpleados.Click += new System.EventHandler(this.btnEmpleados_Click);
             // 
             // btnInventario

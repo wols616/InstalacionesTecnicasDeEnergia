@@ -145,6 +145,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Forms\AgregarCategoriaManoObraForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\AgregarCategoriaManoObraForm.Designer.cs">
+      <DependentUpon>AgregarCategoriaManoObraForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\AgregarCategoriaMaterialForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -199,11 +205,11 @@
     <Compile Include="Forms\InventarioForm.Designer.cs">
       <DependentUpon>InventarioForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Forms\ManodeObra.cs">
+    <Compile Include="Forms\ManodeObraForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Forms\ManodeObra.Designer.cs">
-      <DependentUpon>ManodeObra.cs</DependentUpon>
+    <Compile Include="Forms\ManodeObraForm.Designer.cs">
+      <DependentUpon>ManodeObraForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Forms\PresupuestoForm.cs">
       <SubType>Form</SubType>
@@ -233,6 +239,9 @@
     <Compile Include="Models\Trabajo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\AgregarCategoriaManoObraForm.resx">
+      <DependentUpon>AgregarCategoriaManoObraForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\AgregarCategoriaMaterialForm.resx">
       <DependentUpon>AgregarCategoriaMaterialForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -260,8 +269,8 @@
     <EmbeddedResource Include="Forms\InventarioForm.resx">
       <DependentUpon>InventarioForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Forms\ManodeObra.resx">
-      <DependentUpon>ManodeObra.cs</DependentUpon>
+    <EmbeddedResource Include="Forms\ManodeObraForm.resx">
+      <DependentUpon>ManodeObraForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Forms\PresupuestoForm.resx">
       <DependentUpon>PresupuestoForm.cs</DependentUpon>

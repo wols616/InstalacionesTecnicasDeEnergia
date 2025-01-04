@@ -8,11 +8,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MongoDB.Driver;
 
 namespace InstalacionesTecnicasDeEnergia.Forms
 {
     public partial class EmpleadosForm : Form
     {
+        Conexion conexion = new Conexion();
         public EmpleadosForm()
         {
             InitializeComponent();
@@ -84,9 +86,6 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
             }
 
-
-
-
             if (validacion == true)
             {
                 string nombres = this.txt_Nombre.Text;
@@ -125,13 +124,172 @@ namespace InstalacionesTecnicasDeEnergia.Forms
                 }
                 catch (Exception ex)
                 {
-                    MessageBox.Show("error" +  ex);
+                    MessageBox.Show("error" + ex);
                 }
 
 
 
             }
 
+        }
+
+        private void cargarTablaEmpleados()
+        {
+            try
+            {
+
+                List<Empleado> empleados = conexion.EmpleadoDb.Find(d => true).ToList();
+                Tabla.DataSource = empleados;
+                Tabla.Columns["Id"].Visible = false;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al cargar a los empleados: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void EmpleadosForm_Load(object sender, EventArgs e)
+        {
+            cargarTablaEmpleados();
+        }
+
+        private void Tabla_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            List<Empleado> empleados = conexion.EmpleadoDb.Find(d => true).ToList();
+
+            if (Tabla.CurrentRow != null)
+            {
+                // Obtener el índice del empleado seleccionado
+                int index = Tabla.CurrentRow.Index;
+
+                // Buscar el empleado seleccionado en la lista de empleados
+                var empleadoSeleccionado = empleados[index];
+
+                if (empleadoSeleccionado != null)
+                {
+                    this.txt_Nombre.Text = empleadoSeleccionado.Nombres;
+                    this.txt_Apellido.Text = empleadoSeleccionado.Apellidos;
+                    this.txt_Dui.Text = empleadoSeleccionado.Dui;
+                    this.txt_Direccion.Text = empleadoSeleccionado.Direccion;
+                    this.txt_TelefonoCasa.Text = empleadoSeleccionado.TelefonoCasa;
+                    this.txt_TelefonoCelular.Text = empleadoSeleccionado.TelefonoCelular;
+                    this.txt_Correo.Text = empleadoSeleccionado.Correo;
+                    this.txt_TipoContrato.Text = empleadoSeleccionado.TipoContrato;
+                    this.txt_FechaContratacion.Text = empleadoSeleccionado.FechaContratacion;
+                    this.txt_FechaDespido.Text = empleadoSeleccionado.FechaDespido;
+                    this.txt_Salario.Text = empleadoSeleccionado.Salario;
+                    this.txt_ComentariosPersonales.Text = empleadoSeleccionado.ComentariosPersonales;
+                }
+            }
+        }
+
+        private void eliminarEmpleado(string id)
+        {
+            var result = MessageBox.Show("Estás seguro que quieres eliminar al empleado?", "Confirmar", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+            if (result == DialogResult.Yes)
+            {
+                var empleadoEliminar = Builders<Empleado>.Filter.Eq(p => p.Id, id);
+                conexion.EmpleadoDb.DeleteOne(empleadoEliminar);
+                cargarTablaEmpleados();
+            }
+            else
+            {
+                return;
+            }
+        }
+
+        private void actualizarEmpleado(string id, Empleado empleado)
+        {
+            Conexion conexion = new Conexion();
+            var empleadoActualizar = Builders<Empleado>.Filter.Eq(p => p.Id, id);
+
+            var actualizacion = Builders<Empleado>.Update
+            .Set(p => p.Nombres, empleado.Nombres)
+            .Set(p => p.Apellidos, empleado.Apellidos)
+            .Set(p => p.Dui, empleado.Dui)
+            .Set(p => p.Direccion, empleado.Direccion)
+            .Set(p => p.TelefonoCasa, empleado.TelefonoCasa)
+            .Set(p => p.TelefonoCelular, empleado.TelefonoCelular)
+            .Set(p => p.Correo, empleado.Correo)
+            .Set(p => p.TipoContrato, empleado.TipoContrato)
+            .Set(p => p.FechaContratacion, empleado.FechaContratacion)
+            .Set(p => p.FechaDespido, empleado.FechaDespido)
+            .Set(p => p.Salario, empleado.Salario)
+            .Set(p => p.ComentariosPersonales, empleado.ComentariosPersonales);
+
+            var resultado = conexion.EmpleadoDb.UpdateOne(empleadoActualizar, actualizacion);
+            cargarTablaEmpleados();
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow filaSeleccionada = Tabla.SelectedRows[0];
+            string idSeleccionado = filaSeleccionada.Cells["Id"].Value.ToString();
+            eliminarEmpleado(idSeleccionado);
+        }
+
+        private void btn_Modificar_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow filaSeleccionada = Tabla.SelectedRows[0];
+            string idSeleccionado = filaSeleccionada.Cells["Id"].Value.ToString();
+
+            Empleado empleado = new Empleado
+            {
+                Nombres = this.txt_Nombre.Text,
+                Apellidos = this.txt_Apellido.Text,
+                Dui = this.txt_Dui.Text,
+                Direccion = this.txt_Direccion.Text,
+                TelefonoCelular = this.txt_TelefonoCelular.Text,
+                TelefonoCasa = this.txt_TelefonoCasa.Text,
+                Correo = this.txt_Correo.Text,
+                TipoContrato = this.txt_TipoContrato.Text,
+                FechaContratacion = this.txt_FechaContratacion.Text,
+                FechaDespido = this.txt_FechaDespido.Text,
+                Salario = this.txt_Salario.Text,
+                ComentariosPersonales = this.txt_ComentariosPersonales.Text
+            };
+
+            try
+            {
+                actualizarEmpleado(idSeleccionado, empleado);
+                MessageBox.Show("El empleado se actualizó correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                cargarTablaEmpleados(); // Recargar la tabla para reflejar los cambios
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Error al actualizar el empleado: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Limpiar los campos de texto
+            this.txt_Nombre.Clear();
+            this.txt_Apellido.Clear();
+            this.txt_Dui.Clear();
+            this.txt_Direccion.Clear();
+            this.txt_TelefonoCelular.Clear();
+            this.txt_TelefonoCasa.Clear();
+            this.txt_Correo.Clear();
+            this.txt_TipoContrato.Clear();
+            this.txt_FechaContratacion.Value = this.txt_FechaContratacion.MinDate; // Restablecer al valor mínimo
+            this.txt_FechaDespido.Value = this.txt_FechaDespido.MinDate; // Restablecer al valor mínimo
+            this.txt_Salario.Clear();
+            this.txt_ComentariosPersonales.Clear();
+
+            // Deseleccionar la fila del DataGridView
+            if (Tabla.SelectedRows.Count > 0)
+            {
+                Tabla.ClearSelection();
+            }
+        }
+
+        private void pbLogo_Click(object sender, EventArgs e)
+        {
+            HomeForm form = new HomeForm();
+            form.Show();
+            this.Hide();
         }
     }
 }

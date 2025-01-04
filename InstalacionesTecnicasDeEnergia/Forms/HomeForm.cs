@@ -35,7 +35,9 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void btnManoObra_Click(object sender, EventArgs e)
         {
-
+            ManodeObraForm form = new ManodeObraForm();
+            form.Show();
+            this.Hide();
         }
 
         private void HomeForm_Resize(object sender, EventArgs e)
