@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using InstalacionesTecnicasDeEnergia.Models;
+using MongoDB.Driver;
 
 namespace InstalacionesTecnicasDeEnergia.Forms
 {
     public partial class TrabajosPendientesForm : Form
     {
+        Conexion conexion = new Conexion();
         Trabajo trabajoPendiente;
         public TrabajosPendientesForm()
         {
@@ -26,6 +28,13 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             configurarFormulario();
 
             trabajoPendiente = trabajo;
+        }
+
+        private void cargarTabla()
+        {
+            List<Trabajo> trabajos = conexion.TrabajoDb.Find(d => true).ToList();
+            dataGridView1.DataSource = trabajos;
+            dataGridView1.Columns["Id"].Visible = false;
         }
 
         private void configurarFormulario()
@@ -51,6 +60,11 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             DetalleTrabajoForm frm = new DetalleTrabajoForm();
             frm.Show();
             this.Hide();
+        }
+
+        private void TrabajosPendientesForm_Load(object sender, EventArgs e)
+        {
+            cargarTabla();
         }
     }
 }

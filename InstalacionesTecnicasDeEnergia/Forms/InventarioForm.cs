@@ -59,6 +59,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             material.Nombre = this.txtNombreMaterial.Text;
             material.Marca = this.txtMarca.Text;
             material.PrecioCompra = Double.Parse(this.textCosto.Value.ToString());
+            material.PrecioVenta = Double.Parse(this.txtPrecioVenta.Value.ToString());
             material.Cantidad = int.Parse(this.textCantidad.Value.ToString());
             material.Descripcion = this.txt_descripcion.Text;
             material.FechaCompra = this.dateTimePicker1.Value;
@@ -77,6 +78,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             material.CategoriaId = this.cbxCategoria.SelectedValue.ToString();
             material.Cantidad = int.Parse(this.textCantidad.Text);
             material.PrecioCompra = double.Parse(this.textCosto.Text);
+            material.PrecioVenta = double.Parse(this.txtPrecioVenta.Text);
             material.FechaCompra = this.dateTimePicker1.Value;
             material.Marca = this.txtMarca.Text;
 
@@ -154,6 +156,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             .Set(p => p.Marca, material.Marca)
             .Set(p => p.Cantidad, material.Cantidad)
             .Set(p => p.PrecioCompra, material.PrecioCompra)
+            .Set(p => p.PrecioVenta, material.PrecioVenta)
             .Set(p => p.CategoriaId, material.CategoriaId)
             .Set(p => p.FechaCompra, material.FechaCompra)
             .Set(p => p.Descripcion, material.Descripcion);
@@ -189,6 +192,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
                     this.textCantidad.Text = materialSeleccionado.Cantidad.ToString();
                     this.textCosto.Text = materialSeleccionado.PrecioCompra.ToString();
+                    this.txtPrecioVenta.Text = materialSeleccionado.PrecioVenta.ToString();
                     this.dateTimePicker1.Text = materialSeleccionado.FechaCompra.ToString();
                     this.txtMarca.Text = materialSeleccionado.Marca;
 

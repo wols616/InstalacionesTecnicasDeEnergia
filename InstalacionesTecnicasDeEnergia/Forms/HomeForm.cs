@@ -71,7 +71,9 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void btnBitacora_Click(object sender, EventArgs e)
         {
-
+            BitacoraForm frm = new BitacoraForm();
+            frm.Show();
+            this.Hide();
         }
 
         private void btnAgregarTrabajo_Click(object sender, EventArgs e)

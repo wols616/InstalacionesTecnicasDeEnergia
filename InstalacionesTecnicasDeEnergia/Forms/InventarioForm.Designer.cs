@@ -51,11 +51,14 @@
             this.txtMarca = new System.Windows.Forms.TextBox();
             this.label7 = new System.Windows.Forms.Label();
             this.btnEliminar = new System.Windows.Forms.Button();
+            this.txtPrecioVenta = new System.Windows.Forms.NumericUpDown();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textCantidad)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.textCosto)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPrecioVenta)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -218,7 +221,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(815, 552);
+            this.label8.Location = new System.Drawing.Point(815, 606);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(94, 13);
             this.label8.TabIndex = 33;
@@ -226,14 +229,14 @@
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(818, 577);
+            this.dateTimePicker1.Location = new System.Drawing.Point(818, 631);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(274, 20);
             this.dateTimePicker1.TabIndex = 34;
             // 
             // btnEditar
             // 
-            this.btnEditar.Location = new System.Drawing.Point(818, 619);
+            this.btnEditar.Location = new System.Drawing.Point(818, 673);
             this.btnEditar.Name = "btnEditar";
             this.btnEditar.Size = new System.Drawing.Size(75, 23);
             this.btnEditar.TabIndex = 35;
@@ -243,7 +246,7 @@
             // 
             // btnAgregar
             // 
-            this.btnAgregar.Location = new System.Drawing.Point(1022, 619);
+            this.btnAgregar.Location = new System.Drawing.Point(1022, 673);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(75, 23);
             this.btnAgregar.TabIndex = 36;
@@ -253,7 +256,7 @@
             // 
             // txtMarca
             // 
-            this.txtMarca.Location = new System.Drawing.Point(818, 510);
+            this.txtMarca.Location = new System.Drawing.Point(818, 564);
             this.txtMarca.Name = "txtMarca";
             this.txtMarca.Size = new System.Drawing.Size(279, 20);
             this.txtMarca.TabIndex = 38;
@@ -261,7 +264,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(815, 485);
+            this.label7.Location = new System.Drawing.Point(815, 539);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(40, 13);
             this.label7.TabIndex = 37;
@@ -269,7 +272,7 @@
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(917, 619);
+            this.btnEliminar.Location = new System.Drawing.Point(917, 673);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 39;
@@ -277,12 +280,35 @@
             this.btnEliminar.UseVisualStyleBackColor = true;
             this.btnEliminar.Click += new System.EventHandler(this.btnEliminar_Click);
             // 
+            // txtPrecioVenta
+            // 
+            this.txtPrecioVenta.Location = new System.Drawing.Point(818, 503);
+            this.txtPrecioVenta.Maximum = new decimal(new int[] {
+            1000,
+            0,
+            0,
+            0});
+            this.txtPrecioVenta.Name = "txtPrecioVenta";
+            this.txtPrecioVenta.Size = new System.Drawing.Size(212, 20);
+            this.txtPrecioVenta.TabIndex = 41;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(815, 487);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(74, 13);
+            this.label9.TabIndex = 40;
+            this.label9.Text = "Precio  Venta:";
+            // 
             // InventarioForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1104, 666);
+            this.ClientSize = new System.Drawing.Size(1104, 764);
+            this.Controls.Add(this.txtPrecioVenta);
+            this.Controls.Add(this.label9);
             this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.txtMarca);
             this.Controls.Add(this.label7);
@@ -312,6 +338,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textCantidad)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.textCosto)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.txtPrecioVenta)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -342,5 +369,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button btnRegresar;
         private System.Windows.Forms.Button btnEliminar;
+        private System.Windows.Forms.NumericUpDown txtPrecioVenta;
+        private System.Windows.Forms.Label label9;
     }
 }

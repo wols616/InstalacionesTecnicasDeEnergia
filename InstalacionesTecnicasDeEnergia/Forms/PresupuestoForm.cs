@@ -49,22 +49,27 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             this.panel1.Width = Width;
             this.label1.Left = (Width - label1.Width) - 20;
 
-            // Definición de la estructura de las tablas
-            DataGridViewTextBoxColumn idColumn = new DataGridViewTextBoxColumn();
-            idColumn.Name = "Id";
-            idColumn.Visible = false; // Ocultar columna
-            dgvMateriales.Columns.Add(idColumn);
+            DataGridViewTextBoxColumn idMaterialColumn = new DataGridViewTextBoxColumn();
+            idMaterialColumn.Name = "Id";
+            idMaterialColumn.HeaderText = "Id";
+            idMaterialColumn.Visible = false; // Ocultar columna
+            dgvMateriales.Columns.Add(idMaterialColumn);
 
             dgvMateriales.Columns.Add("Material", "Material");
             dgvMateriales.Columns.Add("Cantidad", "Cantidad");
+            dgvMateriales.Columns.Add("Precio", "Precio");
 
-            DataGridViewTextBoxColumn idColumn2 = new DataGridViewTextBoxColumn();
-            idColumn.Name = "Id";
-            idColumn.Visible = false;
-            dgvManoObra.Columns.Add(idColumn2);
+            // DataGridView para mano de obra
+            DataGridViewTextBoxColumn idManoObraColumn = new DataGridViewTextBoxColumn();
+            idManoObraColumn.Name = "Id";
+            idManoObraColumn.HeaderText = "Id";
+            idManoObraColumn.Visible = false; // Ocultar columna
+            dgvManoObra.Columns.Add(idManoObraColumn);
 
-            dgvManoObra.Columns.Add("ManoObra", "ManoObra");
+            dgvManoObra.Columns.Add("ManoObra", "Mano de Obra");
             dgvManoObra.Columns.Add("Cantidad", "Cantidad");
+            dgvManoObra.Columns.Add("Precio", "Precio");
+
 
             // Definición de los datos de los combo box
             try
@@ -149,7 +154,12 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void btnSiguiente_Click(object sender, EventArgs e)
         {
-            trabajoPendiente.Presupuesto = Double.Parse(this.txtPresupuesto.Text) - Double.Parse(this.txtDescuento.Text);
+            double descuento = 0;
+            if (this.txtDescuento != null)
+            {
+                descuento = Double.Parse(this.txtDescuento.Text);
+            }
+            trabajoPendiente.Presupuesto = Double.Parse(this.txtPresupuesto.Text) - descuento;
             llenarListaMateriales();
             llenarListaManoObra();
             
@@ -200,7 +210,82 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void dgvManoObra_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
+            
+        }
 
+        private void btnAgregarMaterial_Click(object sender, EventArgs e)
+        {
+            string idMaterialSeleccionado = this.cbxMaterial.SelectedValue.ToString();
+
+            Material material = conexion.MaterialDb.Find(d => d.Id == idMaterialSeleccionado).FirstOrDefault();
+
+            if (material != null)
+            {
+                dgvMateriales.Rows.Add(idMaterialSeleccionado, material.Nombre, this.txtCantidad.Text, material.PrecioVenta);
+            }
+            else
+            {
+                MessageBox.Show("Material no encontrado.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            actualizarPresupuesto();
+        }
+
+        private void btnAgregarManoObra_Click(object sender, EventArgs e)
+        {
+            string idManoObraSeleccionada = this.cbxObra.SelectedValue.ToString();
+
+            ManoObra manoObra = conexion.ManoObraDb.Find(d => d.Id == idManoObraSeleccionada).FirstOrDefault();
+
+            if (manoObra != null)
+            {
+                dgvManoObra.Rows.Add(idManoObraSeleccionada, manoObra.Nombre, this.txtCantidadMano.Text, manoObra.Precio);
+            }
+            else
+            {
+                MessageBox.Show("Mano de obra no encontrada.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+
+            actualizarPresupuesto();
+        }
+
+        private void actualizarPresupuesto()
+        {
+            double presupuesto = 0;
+
+            // Suma materiales
+            foreach (DataGridViewRow row in dgvMateriales.Rows)
+            {
+                if (row.Cells["Id"].Value != null)
+                {
+                    presupuesto += Double.Parse(row.Cells["Cantidad"].Value.ToString()) * Double.Parse(row.Cells["Precio"].Value.ToString());
+                }
+            }
+
+            // Suma mano de obra
+            foreach (DataGridViewRow row in dgvManoObra.Rows)
+            {
+                if (row.Cells["Id"].Value != null)
+                {
+                    presupuesto += Double.Parse(row.Cells["Cantidad"].Value.ToString()) * Double.Parse(row.Cells["Precio"].Value.ToString());
+                }
+            }
+
+            this.txtPresupuesto.Text = presupuesto.ToString();
+            try
+            {
+                this.txtPrecioFinal.Text = (presupuesto - Double.Parse(this.txtDescuento.Text)).ToString();
+            }
+            catch { }
+        }
+
+        private void txtDescuento_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                this.txtPrecioFinal.Text = (Double.Parse(this.txtPresupuesto.Text) - Double.Parse(txtDescuento.Text)).ToString();
+            }
+            catch { }
         }
     }
 }

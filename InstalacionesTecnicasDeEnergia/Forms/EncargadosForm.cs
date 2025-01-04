@@ -8,11 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using InstalacionesTecnicasDeEnergia.Models;
+using MongoDB.Driver;
 
 namespace InstalacionesTecnicasDeEnergia.Forms
 {
     public partial class EncargadosForm : Form
     {
+        Conexion conexion = new Conexion();
         Trabajo trabajo;
         public EncargadosForm()
         {
@@ -31,6 +33,16 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
             dataGridView1.Columns.Add("Nombre", "Nombre");
 
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
+        }
+
+        private void cargarComboBox()
+        {
+            List<Empleado> empleados = conexion.EmpleadoDb.Find(d => true).ToList();
+            cbxEmpleado.DataSource = empleados;
+            cbxEmpleado.DisplayMember = "Nombres";
+            cbxEmpleado.ValueMember = "Id";
         }
 
         private void btnFinalizar_Click(object sender, EventArgs e)
@@ -92,10 +104,20 @@ namespace InstalacionesTecnicasDeEnergia.Forms
                         EmpleadoId = row.Cells["Id"].Value.ToString()
                     };
 
-                    // Agrega el objeto a la lista de materiales
+                    // Agrega el objeto a la lista de encargados
                     trabajo.Encargados.Add(encargados);
                 }
             }
+        }
+
+        private void EncargadosForm_Load(object sender, EventArgs e)
+        {
+            cargarComboBox();
+        }
+
+        private void cbxEmpleado_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
         }
     }
 }

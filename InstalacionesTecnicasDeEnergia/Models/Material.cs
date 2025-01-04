@@ -27,6 +27,8 @@ namespace InstalacionesTecnicasDeEnergia.Models
 
         [BsonElement("precio_compra")]
         public double PrecioCompra { get; set; }
+        [BsonElement("precio_venta")]
+        public double PrecioVenta { get; set; }
 
         [BsonElement("descripcion")]
         public string Descripcion { get; set; }

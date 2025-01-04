@@ -138,22 +138,24 @@
             // 
             // btnManoObra
             // 
+            this.btnManoObra.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnManoObra.Location = new System.Drawing.Point(75, 444);
             this.btnManoObra.Name = "btnManoObra";
             this.btnManoObra.Size = new System.Drawing.Size(178, 48);
             this.btnManoObra.TabIndex = 6;
             this.btnManoObra.Text = "Mano de Obra";
-            this.btnManoObra.UseVisualStyleBackColor = true;
+            this.btnManoObra.UseVisualStyleBackColor = false;
             this.btnManoObra.Click += new System.EventHandler(this.btnManoObra_Click);
             // 
             // btnBitacora
             // 
+            this.btnBitacora.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnBitacora.Location = new System.Drawing.Point(75, 505);
             this.btnBitacora.Name = "btnBitacora";
             this.btnBitacora.Size = new System.Drawing.Size(178, 48);
             this.btnBitacora.TabIndex = 7;
             this.btnBitacora.Text = "Bitácora";
-            this.btnBitacora.UseVisualStyleBackColor = true;
+            this.btnBitacora.UseVisualStyleBackColor = false;
             this.btnBitacora.Click += new System.EventHandler(this.btnBitacora_Click);
             // 
             // pb1

@@ -22,5 +22,8 @@ namespace InstalacionesTecnicasDeEnergia.Models
 
         [BsonElement("fecha")]
         public DateTime Fecha { get; set; }
+
+        [BsonElement("anotacion")]
+        public String Anotacion { get; set; }
     }
 }
