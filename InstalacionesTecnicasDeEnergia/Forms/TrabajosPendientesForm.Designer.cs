@@ -34,9 +34,9 @@
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.label2 = new System.Windows.Forms.Label();
             this.txtNombreCliente = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtDescripcion = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtLugar = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.txtFecha = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
@@ -80,14 +80,17 @@
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 1;
             this.pbLogo.TabStop = false;
+            this.pbLogo.Click += new System.EventHandler(this.pbLogo_Click);
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(12, 146);
             this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(776, 150);
             this.dataGridView1.TabIndex = 5;
+            this.dataGridView1.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellClick);
             // 
             // label2
             // 
@@ -105,13 +108,13 @@
             this.txtNombreCliente.Size = new System.Drawing.Size(180, 20);
             this.txtNombreCliente.TabIndex = 7;
             // 
-            // textBox1
+            // txtDescripcion
             // 
-            this.textBox1.Location = new System.Drawing.Point(171, 376);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(180, 46);
-            this.textBox1.TabIndex = 9;
+            this.txtDescripcion.Location = new System.Drawing.Point(171, 376);
+            this.txtDescripcion.Multiline = true;
+            this.txtDescripcion.Name = "txtDescripcion";
+            this.txtDescripcion.Size = new System.Drawing.Size(180, 46);
+            this.txtDescripcion.TabIndex = 9;
             // 
             // label3
             // 
@@ -122,13 +125,13 @@
             this.label3.TabIndex = 8;
             this.label3.Text = "Descripción del proyecto";
             // 
-            // textBox2
+            // txtLugar
             // 
-            this.textBox2.Location = new System.Drawing.Point(171, 443);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(180, 49);
-            this.textBox2.TabIndex = 11;
+            this.txtLugar.Location = new System.Drawing.Point(171, 443);
+            this.txtLugar.Multiline = true;
+            this.txtLugar.Name = "txtLugar";
+            this.txtLugar.Size = new System.Drawing.Size(180, 49);
+            this.txtLugar.TabIndex = 11;
             // 
             // label4
             // 
@@ -199,6 +202,7 @@
             this.btnFinalizar.TabIndex = 18;
             this.btnFinalizar.Text = "Finalizar Trabajo";
             this.btnFinalizar.UseVisualStyleBackColor = true;
+            this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
             // TrabajosPendientesForm
             // 
@@ -213,9 +217,9 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.txtFecha);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtLugar);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtDescripcion);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtNombreCliente);
             this.Controls.Add(this.label2);
@@ -241,9 +245,9 @@
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtNombreCliente;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtDescripcion;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtLugar;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtFecha;
         private System.Windows.Forms.Label label5;

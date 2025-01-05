@@ -1,4 +1,6 @@
-﻿using System;
+﻿using InstalacionesTecnicasDeEnergia.Models;
+using MongoDB.Driver;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +14,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 {
     public partial class TrabajosRealizadosForm : Form
     {
+        Conexion conexion = new Conexion();
         public TrabajosRealizadosForm()
         {
             InitializeComponent();
@@ -31,6 +34,13 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             this.label1.Left = (Width - label1.Width) - 20;
         }
 
+        private void cargarTabla()
+        {
+            List<Trabajo> trabajos = conexion.TrabajoDb.Find(d => d.Estado == "Completado").ToList();
+            dataGridView1.DataSource = trabajos;
+            dataGridView1.Columns["Id"].Visible = false;
+        }
+
         private void btnDetalles_Click(object sender, EventArgs e)
         {
             DetalleTrabajoForm frm = new DetalleTrabajoForm();
@@ -41,6 +51,40 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void txtNombreCliente_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            List<Trabajo> trabajos = conexion.TrabajoDb.Find(d => d.Estado == "Completado").ToList();
+
+            if (dataGridView1.CurrentRow != null)
+            {
+                int index = dataGridView1.CurrentRow.Index;
+
+                var trabajoSeleccionado = trabajos[index];
+
+                if (trabajoSeleccionado != null)
+                {
+                    this.txtNombreCliente.Text = trabajoSeleccionado.NombreCliente;
+                    this.txtDescripcion.Text = trabajoSeleccionado.DescripcionProyecto;
+                    this.txtFecha.Text = trabajoSeleccionado.Fecha.ToString();
+                    this.txtLugar.Text = trabajoSeleccionado.Lugar;
+                    this.txtPresupuesto.Text = trabajoSeleccionado.Presupuesto.ToString();
+                }
+
+            }
+        }
+
+        private void TrabajosRealizadosForm_Load(object sender, EventArgs e)
+        {
+            cargarTabla();
+        }
+
+        private void pbLogo_Click(object sender, EventArgs e)
+        {
+            HomeForm frm = new HomeForm();
+            frm.Show();
+            this.Hide();
         }
     }
 }

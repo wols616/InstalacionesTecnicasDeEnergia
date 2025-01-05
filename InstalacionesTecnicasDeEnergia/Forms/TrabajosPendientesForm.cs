@@ -32,7 +32,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void cargarTabla()
         {
-            List<Trabajo> trabajos = conexion.TrabajoDb.Find(d => true).ToList();
+            List<Trabajo> trabajos = conexion.TrabajoDb.Find(d => d.Estado == "Pendiente").ToList();
             dataGridView1.DataSource = trabajos;
             dataGridView1.Columns["Id"].Visible = false;
         }
@@ -65,6 +65,57 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void TrabajosPendientesForm_Load(object sender, EventArgs e)
         {
             cargarTabla();
+        }
+
+        private void actualizarTrabajo(string id, Trabajo trabajo)
+        {
+            var trabajoActualizar = Builders<Trabajo>.Filter.Eq(p => p.Id, id);
+
+            var actualizacion = Builders<Trabajo>.Update
+            .Set(p => p.Estado, trabajo.Estado);
+
+            var resultado = conexion.TrabajoDb.UpdateOne(trabajoActualizar, actualizacion);
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            List<Trabajo> trabajos = conexion.TrabajoDb.Find(d => d.Estado == "Pendiente").ToList();
+
+            if (dataGridView1.CurrentRow != null)
+            {
+                int index = dataGridView1.CurrentRow.Index;
+
+                // Buscar el producto original en la lista de productos
+                var trabajoSeleccionado = trabajos[index];
+
+                if (trabajoSeleccionado != null)
+                {
+                    this.txtNombreCliente.Text = trabajoSeleccionado.NombreCliente;
+                    this.txtDescripcion.Text = trabajoSeleccionado.DescripcionProyecto;
+                    this.txtFecha.Text = trabajoSeleccionado.Fecha.ToString();
+                    this.txtLugar.Text = trabajoSeleccionado.Lugar;
+                    this.txtPresupuesto.Text = trabajoSeleccionado.Presupuesto.ToString();
+                }
+
+            }
+        }
+
+        private void btnFinalizar_Click(object sender, EventArgs e)
+        {
+            DataGridViewRow filaSeleccionada = dataGridView1.SelectedRows[0];
+            string idSeleccionado = filaSeleccionada.Cells["Id"].Value.ToString();
+
+            Trabajo trabajo = new Trabajo();
+            trabajo.Estado = "Completado";
+            actualizarTrabajo(idSeleccionado, trabajo);
+
+        }
+
+        private void pbLogo_Click(object sender, EventArgs e)
+        {
+            HomeForm frm = new HomeForm();
+            frm.Show();
+            this.Hide();
         }
     }
 }

@@ -83,7 +83,7 @@
             // 
             // btnAgregarTrabajo
             // 
-            this.btnAgregarTrabajo.BackColor = System.Drawing.SystemColors.Control;
+            this.btnAgregarTrabajo.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnAgregarTrabajo.Location = new System.Drawing.Point(75, 136);
             this.btnAgregarTrabajo.Name = "btnAgregarTrabajo";
             this.btnAgregarTrabajo.Size = new System.Drawing.Size(178, 48);
@@ -94,7 +94,7 @@
             // 
             // btnTrabajosPendientes
             // 
-            this.btnTrabajosPendientes.BackColor = System.Drawing.SystemColors.Control;
+            this.btnTrabajosPendientes.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnTrabajosPendientes.Location = new System.Drawing.Point(75, 202);
             this.btnTrabajosPendientes.Name = "btnTrabajosPendientes";
             this.btnTrabajosPendientes.Size = new System.Drawing.Size(178, 48);
@@ -105,7 +105,7 @@
             // 
             // btnTrabajosRealizados
             // 
-            this.btnTrabajosRealizados.BackColor = System.Drawing.SystemColors.Control;
+            this.btnTrabajosRealizados.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnTrabajosRealizados.Location = new System.Drawing.Point(75, 266);
             this.btnTrabajosRealizados.Name = "btnTrabajosRealizados";
             this.btnTrabajosRealizados.Size = new System.Drawing.Size(178, 48);
