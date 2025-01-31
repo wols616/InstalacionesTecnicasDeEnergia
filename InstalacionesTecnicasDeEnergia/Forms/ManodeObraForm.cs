@@ -22,6 +22,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void cargarTabla(string filtro = "")
         {
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             List<ManoObra> manosObra = conexion.ManoObraDb.Find(d => true).ToList();
 
             if (!string.IsNullOrEmpty(filtro))

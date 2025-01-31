@@ -18,6 +18,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         public TrabajosRealizadosForm()
         {
             InitializeComponent();
+            dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             //Ancho de la pantalla
             int widthDisplay = (int)(Screen.PrimaryScreen.Bounds.Width * 0.40);
             int heighDisplay = (int)(Screen.PrimaryScreen.Bounds.Height * 0.60);

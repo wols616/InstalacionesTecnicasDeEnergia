@@ -40,8 +40,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             this.panel1.Width = Width;
             this.label1.Left = (Width - label1.Width) - 20;
 
-            // Definición de los datos de los combo box
-            
+            this.Tabla.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
 
         }
 

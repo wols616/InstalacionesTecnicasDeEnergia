@@ -51,6 +51,9 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             //this.panel1.Width = Width;
             //this.label1.Left = (Width - label1.Width) - 20;
 
+            dgvManoObra.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvMateriales.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
             DataGridViewTextBoxColumn idMaterialColumn = new DataGridViewTextBoxColumn();
             idMaterialColumn.Name = "Id";
             idMaterialColumn.HeaderText = "Id";

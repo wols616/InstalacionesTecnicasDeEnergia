@@ -32,7 +32,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void cargarTipoEmpleados()
         {
 
-
+            this.dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             List<TipoContrato_Empleado_> tipos = conexion.TipoEmpleadoDb.Find(d => true).ToList();
             dataGridView1.DataSource = tipos;
             dataGridView1.Columns["Id"].Visible = false;

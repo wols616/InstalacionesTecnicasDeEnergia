@@ -61,11 +61,10 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Right;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(1305, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(967, 0);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(0, 50, 50, 0);
-            this.label1.Size = new System.Drawing.Size(278, 104);
+            this.label1.Padding = new System.Windows.Forms.Padding(0, 41, 38, 0);
+            this.label1.Size = new System.Drawing.Size(220, 83);
             this.label1.TabIndex = 0;
             this.label1.Text = "Trabajo N";
             // 
@@ -75,19 +74,17 @@
             this.panel1.Controls.Add(this.pbLogo);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1583, 161);
+            this.panel1.Size = new System.Drawing.Size(1187, 131);
             this.panel1.TabIndex = 5;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pbLogo
             // 
             this.pbLogo.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.ITE;
-            this.pbLogo.Location = new System.Drawing.Point(28, 13);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
+            this.pbLogo.Location = new System.Drawing.Point(21, 11);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(155, 133);
+            this.pbLogo.Size = new System.Drawing.Size(116, 108);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 1;
             this.pbLogo.TabStop = false;
@@ -95,142 +92,129 @@
             // 
             // txtFecha
             // 
-            this.txtFecha.Location = new System.Drawing.Point(757, 176);
-            this.txtFecha.Margin = new System.Windows.Forms.Padding(4);
+            this.txtFecha.Location = new System.Drawing.Point(568, 143);
             this.txtFecha.Name = "txtFecha";
-            this.txtFecha.Size = new System.Drawing.Size(239, 22);
+            this.txtFecha.Size = new System.Drawing.Size(180, 20);
             this.txtFecha.TabIndex = 21;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(561, 180);
-            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Location = new System.Drawing.Point(421, 146);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(48, 16);
+            this.label5.Size = new System.Drawing.Size(40, 13);
             this.label5.TabIndex = 20;
             this.label5.Text = "Fecha:";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(757, 239);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox2.Location = new System.Drawing.Point(568, 194);
             this.textBox2.Multiline = true;
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(239, 59);
+            this.textBox2.Size = new System.Drawing.Size(180, 49);
             this.textBox2.TabIndex = 19;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(561, 242);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(421, 197);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(44, 16);
+            this.label4.Size = new System.Drawing.Size(37, 13);
             this.label4.TabIndex = 18;
             this.label4.Text = "Lugar:";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(267, 235);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(200, 191);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(239, 56);
+            this.textBox1.Size = new System.Drawing.Size(180, 46);
             this.textBox1.TabIndex = 17;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(71, 239);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(53, 194);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(157, 16);
+            this.label3.Size = new System.Drawing.Size(124, 13);
             this.label3.TabIndex = 16;
             this.label3.Text = "Descripción del proyecto";
             // 
             // txtNombreCliente
             // 
-            this.txtNombreCliente.Location = new System.Drawing.Point(267, 177);
-            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNombreCliente.Location = new System.Drawing.Point(200, 144);
             this.txtNombreCliente.Name = "txtNombreCliente";
-            this.txtNombreCliente.Size = new System.Drawing.Size(239, 22);
+            this.txtNombreCliente.Size = new System.Drawing.Size(180, 20);
             this.txtNombreCliente.TabIndex = 15;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(71, 181);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(53, 147);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(123, 16);
+            this.label2.Size = new System.Drawing.Size(98, 13);
             this.label2.TabIndex = 14;
             this.label2.Text = "Nombre del cliente:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(71, 347);
-            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label6.Location = new System.Drawing.Point(53, 282);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(96, 16);
+            this.label6.Size = new System.Drawing.Size(78, 13);
             this.label6.TabIndex = 22;
             this.label6.Text = "Mano de Obra:";
             // 
             // TablaManoObra
             // 
             this.TablaManoObra.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaManoObra.Location = new System.Drawing.Point(75, 367);
-            this.TablaManoObra.Margin = new System.Windows.Forms.Padding(4);
+            this.TablaManoObra.Location = new System.Drawing.Point(56, 298);
             this.TablaManoObra.Name = "TablaManoObra";
             this.TablaManoObra.RowHeadersWidth = 51;
-            this.TablaManoObra.Size = new System.Drawing.Size(923, 185);
+            this.TablaManoObra.Size = new System.Drawing.Size(692, 150);
             this.TablaManoObra.TabIndex = 23;
             this.TablaManoObra.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // TablaMateriales
             // 
             this.TablaMateriales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaMateriales.Location = new System.Drawing.Point(75, 576);
-            this.TablaMateriales.Margin = new System.Windows.Forms.Padding(4);
+            this.TablaMateriales.Location = new System.Drawing.Point(56, 468);
             this.TablaMateriales.Name = "TablaMateriales";
             this.TablaMateriales.RowHeadersWidth = 51;
-            this.TablaMateriales.Size = new System.Drawing.Size(923, 185);
+            this.TablaMateriales.Size = new System.Drawing.Size(692, 150);
             this.TablaMateriales.TabIndex = 25;
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(71, 556);
-            this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label7.Location = new System.Drawing.Point(53, 452);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(73, 16);
+            this.label7.Size = new System.Drawing.Size(58, 13);
             this.label7.TabIndex = 24;
             this.label7.Text = "Materiales:";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(87, 1007);
-            this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label8.Location = new System.Drawing.Point(65, 818);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(120, 16);
+            this.label8.Size = new System.Drawing.Size(96, 13);
             this.label8.TabIndex = 26;
             this.label8.Text = "Presupuesto Total:";
             // 
             // txtPresupuestoTotal
             // 
-            this.txtPresupuestoTotal.Location = new System.Drawing.Point(223, 1007);
-            this.txtPresupuestoTotal.Margin = new System.Windows.Forms.Padding(4);
+            this.txtPresupuestoTotal.Location = new System.Drawing.Point(167, 818);
             this.txtPresupuestoTotal.Name = "txtPresupuestoTotal";
-            this.txtPresupuestoTotal.Size = new System.Drawing.Size(132, 22);
+            this.txtPresupuestoTotal.Size = new System.Drawing.Size(100, 20);
             this.txtPresupuestoTotal.TabIndex = 27;
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(790, 1007);
+            this.button1.Location = new System.Drawing.Point(592, 818);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(183, 36);
+            this.button1.Size = new System.Drawing.Size(137, 29);
             this.button1.TabIndex = 30;
             this.button1.Text = "Encargados";
             this.button1.UseVisualStyleBackColor = true;
@@ -238,29 +222,27 @@
             // TablaEncargados
             // 
             this.TablaEncargados.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.TablaEncargados.Location = new System.Drawing.Point(75, 795);
-            this.TablaEncargados.Margin = new System.Windows.Forms.Padding(4);
+            this.TablaEncargados.Location = new System.Drawing.Point(56, 646);
             this.TablaEncargados.Name = "TablaEncargados";
             this.TablaEncargados.RowHeadersWidth = 51;
-            this.TablaEncargados.Size = new System.Drawing.Size(923, 185);
+            this.TablaEncargados.Size = new System.Drawing.Size(692, 150);
             this.TablaEncargados.TabIndex = 31;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(87, 775);
-            this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label10.Location = new System.Drawing.Point(65, 630);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(84, 16);
+            this.label10.Size = new System.Drawing.Size(67, 13);
             this.label10.TabIndex = 32;
             this.label10.Text = "Encargados:";
             // 
             // DetalleTrabajoForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1067, 1055);
+            this.ClientSize = new System.Drawing.Size(800, 857);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.TablaEncargados);
             this.Controls.Add(this.button1);
@@ -279,7 +261,6 @@
             this.Controls.Add(this.txtNombreCliente);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "DetalleTrabajoForm";
             this.Text = "DetalleTrabajoForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

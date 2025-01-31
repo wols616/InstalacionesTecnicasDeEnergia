@@ -30,6 +30,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void cargarTabla()
         {
+            this.dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             List<CategoriaManoObra> categorias = conexion.CategoriaManoObraDb.Find(d => true).ToList();
             dataGridView1.DataSource = categorias;
             dataGridView1.Columns["Id"].Visible = false;

@@ -17,7 +17,7 @@ namespace InstalacionesTecnicasDeEnergia
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new EncargadosForm());
+            Application.Run(new HomeForm());
         }
     }
 }

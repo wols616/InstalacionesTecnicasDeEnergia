@@ -14,8 +14,6 @@ namespace InstalacionesTecnicasDeEnergia.Models
         [BsonRepresentation(BsonType.ObjectId)]
         public string Id { get; set; }
 
-
-
         [BsonElement("tipo_Contrato")]
         [BsonRepresentation(BsonType.ObjectId)]
         public string TipoContrato { get; set; }
@@ -58,7 +56,10 @@ namespace InstalacionesTecnicasDeEnergia.Models
         [BsonElement("comentarios_personales")]
         public string ComentariosPersonales { get; set; }
 
-
+        public string FullName
+        {
+            get { return Nombres + " " + Apellidos; }
+        }
 
     }
 }

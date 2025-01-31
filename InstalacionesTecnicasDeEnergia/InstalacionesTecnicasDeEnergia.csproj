@@ -236,6 +236,7 @@
       <DependentUpon>TrabajosRealizadosForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Metodos\Metodos.cs" />
+    <Compile Include="Models\Asistencia.cs" />
     <Compile Include="Models\Bitacora.cs" />
     <Compile Include="Models\CategoriaManoObra.cs" />
     <Compile Include="Models\CategoriaMaterial.cs" />

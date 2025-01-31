@@ -19,8 +19,8 @@ namespace InstalacionesTecnicasDeEnergia
         public IMongoCollection<Bitacora> BitacoraDb { get; set; }
         public IMongoCollection<ManoObra> ManoObraDb { get; set; }
         public IMongoCollection<CategoriaManoObra> CategoriaManoObraDb { get; set; }
-
         public IMongoCollection<Trabajo> TrabajoDb { get; set; }
+        public IMongoCollection<Asistencia> AsistenciaDb { get; set; }
 
         public Conexion()
         {
@@ -36,6 +36,7 @@ namespace InstalacionesTecnicasDeEnergia
             CategoriaManoObraDb = db.GetCollection<CategoriaManoObra>("CategoriaManoObra");
             TrabajoDb = db.GetCollection<Trabajo>("Trabajo");
             TipoEmpleadoDb = db.GetCollection<TipoContrato_Empleado_>("TipoContratoEmpleado");
+            AsistenciaDb = db.GetCollection<Asistencia>("Asistencia");
         }
 
 

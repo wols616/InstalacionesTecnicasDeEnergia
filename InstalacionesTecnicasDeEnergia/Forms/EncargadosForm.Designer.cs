@@ -48,11 +48,10 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Right;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(1294, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(957, 0);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(0, 50, 50, 0);
-            this.label1.Size = new System.Drawing.Size(324, 104);
+            this.label1.Padding = new System.Windows.Forms.Padding(0, 41, 38, 0);
+            this.label1.Size = new System.Drawing.Size(257, 83);
             this.label1.TabIndex = 0;
             this.label1.Text = "Encargados";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -64,18 +63,16 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1618, 161);
+            this.panel1.Size = new System.Drawing.Size(1214, 131);
             this.panel1.TabIndex = 3;
             // 
             // pbLogo
             // 
             this.pbLogo.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.ITE_Propio;
-            this.pbLogo.Location = new System.Drawing.Point(28, 13);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
+            this.pbLogo.Location = new System.Drawing.Point(21, 11);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(155, 133);
+            this.pbLogo.Size = new System.Drawing.Size(116, 108);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 1;
             this.pbLogo.TabStop = false;
@@ -84,41 +81,37 @@
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(563, 250);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
+            this.dataGridView1.Location = new System.Drawing.Point(422, 203);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(1055, 281);
+            this.dataGridView1.Size = new System.Drawing.Size(791, 228);
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // cbxEmpleado
             // 
             this.cbxEmpleado.FormattingEnabled = true;
-            this.cbxEmpleado.Location = new System.Drawing.Point(864, 665);
-            this.cbxEmpleado.Margin = new System.Windows.Forms.Padding(4);
+            this.cbxEmpleado.Location = new System.Drawing.Point(648, 540);
             this.cbxEmpleado.Name = "cbxEmpleado";
-            this.cbxEmpleado.Size = new System.Drawing.Size(237, 24);
+            this.cbxEmpleado.Size = new System.Drawing.Size(179, 21);
             this.cbxEmpleado.TabIndex = 4;
             this.cbxEmpleado.SelectedIndexChanged += new System.EventHandler(this.cbxEmpleado_SelectedIndexChanged);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(864, 646);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(648, 525);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 16);
+            this.label2.Size = new System.Drawing.Size(113, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Nombre del empleado:";
             // 
             // btnAsignar
             // 
-            this.btnAsignar.Location = new System.Drawing.Point(1134, 665);
-            this.btnAsignar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnAsignar.Location = new System.Drawing.Point(850, 540);
             this.btnAsignar.Name = "btnAsignar";
-            this.btnAsignar.Size = new System.Drawing.Size(100, 28);
+            this.btnAsignar.Size = new System.Drawing.Size(75, 23);
             this.btnAsignar.TabIndex = 6;
             this.btnAsignar.Text = "Asignar";
             this.btnAsignar.UseVisualStyleBackColor = true;
@@ -126,10 +119,9 @@
             // 
             // btnDesasignar
             // 
-            this.btnDesasignar.Location = new System.Drawing.Point(1257, 665);
-            this.btnDesasignar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnDesasignar.Location = new System.Drawing.Point(943, 540);
             this.btnDesasignar.Name = "btnDesasignar";
-            this.btnDesasignar.Size = new System.Drawing.Size(100, 28);
+            this.btnDesasignar.Size = new System.Drawing.Size(75, 23);
             this.btnDesasignar.TabIndex = 7;
             this.btnDesasignar.Text = "Desasignar";
             this.btnDesasignar.UseVisualStyleBackColor = true;
@@ -138,10 +130,9 @@
             // btnFinalizar
             // 
             this.btnFinalizar.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.btnFinalizar.Location = new System.Drawing.Point(1228, 763);
-            this.btnFinalizar.Margin = new System.Windows.Forms.Padding(4);
+            this.btnFinalizar.Location = new System.Drawing.Point(921, 620);
             this.btnFinalizar.Name = "btnFinalizar";
-            this.btnFinalizar.Size = new System.Drawing.Size(220, 28);
+            this.btnFinalizar.Size = new System.Drawing.Size(165, 23);
             this.btnFinalizar.TabIndex = 8;
             this.btnFinalizar.Text = "Finalizar";
             this.btnFinalizar.UseVisualStyleBackColor = false;
@@ -149,9 +140,9 @@
             // 
             // EncargadosForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1618, 899);
+            this.ClientSize = new System.Drawing.Size(1214, 730);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.btnDesasignar);
             this.Controls.Add(this.btnAsignar);
@@ -159,7 +150,6 @@
             this.Controls.Add(this.cbxEmpleado);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "EncargadosForm";
             this.Text = "EncargadosForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

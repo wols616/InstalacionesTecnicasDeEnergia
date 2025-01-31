@@ -30,6 +30,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void cargarCategorias()
         {
+            this.dataGridView1.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             List<CategoriaMaterial> categorias = conexion.CategoriaMaterialDb.Find(d => true).ToList();
             dataGridView1.DataSource = categorias;
             dataGridView1.Columns["Id"].Visible = false;

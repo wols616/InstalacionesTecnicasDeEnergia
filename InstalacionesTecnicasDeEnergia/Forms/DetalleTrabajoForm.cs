@@ -33,6 +33,12 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             //Adaptar el panel a todo el ancho
             this.panel1.Width = Width;
             this.label1.Left = (Width - label1.Width) - 20;
+
+            //Adaptar a todo el ancho del datagridview
+            this.TablaManoObra.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            this.TablaEncargados.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            this.TablaMateriales.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+
         }
 
         public void CargarTablas()
@@ -43,14 +49,15 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             List<TipoContrato_Empleado_> ListaTipoEmpleado = conexion.TipoEmpleadoDb.Find(d => true).ToList();
 
             List<ManoObra> ListaManoObra = conexion.ManoObraDb.Find(d => true).ToList();
+            List<CategoriaManoObra> ListaCategoriaManoObra = conexion.CategoriaManoObraDb.Find(d => true).ToList();
 
             List<Material> ListaMateriales = conexion.MaterialDb.Find(d => true).ToList();
             List<CategoriaMaterial> ListaCategoriaMaterial = conexion.CategoriaMaterialDb.Find(d => true).ToList();
+
          //   List<MaterialUsado> ListaMaterialUsado = conexion.MaterialDb.Find(d => true).ToList();
 
             var Encargados = ListaEmpleado.Select(e => new
             { 
-                e.Id,
                 e.Nombres,
                 e.Apellidos,
                 e.Dui,
@@ -62,12 +69,18 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
             var Materiales = ListaMateriales.Select(e => new
             {
-                e.Id,
                 e.Nombre,
                 Categoria = ListaCategoriaMaterial.FirstOrDefault(t => t.Id == e.CategoriaId)?.Nombre ?? "Desconocido",
                 e.Marca,
                 //Cantidad = ListaCategoriaMaterial.FirstOrDefault(t => t.Id == e.Cantidad)?.Cantidad ?? "Desconocido"
 
+            }).ToList();
+
+            var ManoObras = ListaManoObra.Select(e => new { 
+                e.Nombre,
+                e.Descripcion,
+                e.Precio,
+                TipoManoObra = ListaCategoriaManoObra.FirstOrDefault(t => t.Id == e.CategoriaId)?.Nombre ?? "Desconocido"
             }).ToList();
 
             //var Trabajos = ListaTrabajos.Select(e => new
@@ -76,14 +89,10 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
             //}).ToList();
             // Tabla.DataSource = empleadosConTipoContrato;
+
             TablaEncargados.DataSource = Encargados;
             TablaMateriales.DataSource = Materiales;
-
-
-            TablaMateriales.Columns["Id"].Visible = false;
-            TablaEncargados.Columns["Id"].Visible = false;
-
-
+            TablaManoObra.DataSource = ManoObras;            
         }
 
         private void DetalleTrabajoForm_Load(object sender, EventArgs e)

@@ -19,6 +19,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         public EmpleadosForm()
         {
             InitializeComponent();
+            this.Tabla.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
         }
 
         private void btn_Agregar_Click(object sender, EventArgs e)
