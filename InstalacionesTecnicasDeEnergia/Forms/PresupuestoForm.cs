@@ -525,5 +525,25 @@ namespace InstalacionesTecnicasDeEnergia.Forms
             btn.BackColor = Color.White; // Volver al color original
             btn.ForeColor = ColorTranslator.FromHtml("#284b63"); // Volver al color original del texto
         }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPre_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtPreFinal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -16,9 +16,12 @@ namespace InstalacionesTecnicasDeEnergia.Forms
     public partial class DetalleTrabajoForm : Form
     {
         Conexion conexion = new Conexion();
+        public string IdSeleccionado { get; set; }
+
         public DetalleTrabajoForm()
         {
             InitializeComponent();
+
             //Ancho de la pantalla
             int widthDisplay = (int)(Screen.PrimaryScreen.Bounds.Width * 0.40);
             int heighDisplay = (int)(Screen.PrimaryScreen.Bounds.Height * 0.60);
@@ -43,7 +46,35 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         public void CargarTablas()
         {
-            List<Trabajo> ListaTrabajos = conexion.TrabajoDb.Find(d => true).ToList();
+
+            //// Suponiendo que tienes la clase Trabajo y que la colección de trabajos se llama 'TrabajoDb'
+            //var trabajo = conexion.TrabajoDb.Find(t => t.Id == idSeleccionado).FirstOrDefault();
+
+            //if (trabajo != null)
+            //{
+            //    // Listado de encargados
+            //    var encargadosIds = trabajo.Encargados.Select(e => e.Id).ToList(); // Suponiendo que Encargados es una lista de objetos con propiedad 'Id'
+
+            //    // Aquí puedes recorrer los IDs de los encargados
+            //    foreach (var encargadoId in encargadosIds)
+            //    {
+            //        // Buscar el empleado por el ID
+            //        var empleado = conexion.EmpleadoDb.Find(e => e.Id == encargadoId).FirstOrDefault();
+
+            //        if (empleado != null)
+            //        {
+            //            Console.WriteLine($"Nombre del encargado: {empleado.Nombres} {empleado.Apellidos}");
+            //        }
+            //    }
+            //}
+
+
+
+
+
+
+
+            //List<Trabajo> ListaTrabajos = conexion.TrabajoDb.Find(d => d.Id == IdSeleccionado).ToList();
 
             List<Empleado> ListaEmpleado = conexion.EmpleadoDb.Find(d => true).ToList();
             List<TipoContrato_Empleado_> ListaTipoEmpleado = conexion.TipoEmpleadoDb.Find(d => true).ToList();

@@ -60,16 +60,18 @@
             this.panel1.Controls.Add(this.pbLogo);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Location = new System.Drawing.Point(1, -1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1187, 131);
+            this.panel1.Size = new System.Drawing.Size(1583, 161);
             this.panel1.TabIndex = 0;
             // 
             // pbLogo
             // 
             this.pbLogo.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.ITE_Propio;
-            this.pbLogo.Location = new System.Drawing.Point(21, 11);
+            this.pbLogo.Location = new System.Drawing.Point(28, 14);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pbLogo.Name = "pbLogo";
-            this.pbLogo.Size = new System.Drawing.Size(116, 108);
+            this.pbLogo.Size = new System.Drawing.Size(155, 133);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbLogo.TabIndex = 1;
             this.pbLogo.TabStop = false;
@@ -81,10 +83,11 @@
             this.label1.Dock = System.Windows.Forms.DockStyle.Right;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Control;
-            this.label1.Location = new System.Drawing.Point(1032, 0);
+            this.label1.Location = new System.Drawing.Point(1384, 0);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Padding = new System.Windows.Forms.Padding(0, 41, 38, 0);
-            this.label1.Size = new System.Drawing.Size(155, 83);
+            this.label1.Padding = new System.Windows.Forms.Padding(0, 50, 51, 0);
+            this.label1.Size = new System.Drawing.Size(199, 104);
             this.label1.TabIndex = 0;
             this.label1.Text = "Home";
             // 
@@ -93,9 +96,10 @@
             this.btnAgregarTrabajo.BackColor = System.Drawing.Color.White;
             this.btnAgregarTrabajo.Font = new System.Drawing.Font("Gadugi", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarTrabajo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(75)))), ((int)(((byte)(99)))));
-            this.btnAgregarTrabajo.Location = new System.Drawing.Point(106, 293);
+            this.btnAgregarTrabajo.Location = new System.Drawing.Point(92, 246);
+            this.btnAgregarTrabajo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgregarTrabajo.Name = "btnAgregarTrabajo";
-            this.btnAgregarTrabajo.Size = new System.Drawing.Size(221, 48);
+            this.btnAgregarTrabajo.Size = new System.Drawing.Size(295, 59);
             this.btnAgregarTrabajo.TabIndex = 1;
             this.btnAgregarTrabajo.Text = "Agregar Trabajo";
             this.btnAgregarTrabajo.UseVisualStyleBackColor = false;
@@ -109,9 +113,10 @@
             this.btnTrabajosPendientes.BackColor = System.Drawing.Color.White;
             this.btnTrabajosPendientes.Font = new System.Drawing.Font("Gadugi", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrabajosPendientes.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(75)))), ((int)(((byte)(99)))));
-            this.btnTrabajosPendientes.Location = new System.Drawing.Point(106, 358);
+            this.btnTrabajosPendientes.Location = new System.Drawing.Point(92, 326);
+            this.btnTrabajosPendientes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTrabajosPendientes.Name = "btnTrabajosPendientes";
-            this.btnTrabajosPendientes.Size = new System.Drawing.Size(221, 48);
+            this.btnTrabajosPendientes.Size = new System.Drawing.Size(295, 59);
             this.btnTrabajosPendientes.TabIndex = 2;
             this.btnTrabajosPendientes.Text = "Trabajos Pendientes";
             this.btnTrabajosPendientes.UseVisualStyleBackColor = false;
@@ -125,9 +130,10 @@
             this.btnTrabajosRealizados.BackColor = System.Drawing.Color.White;
             this.btnTrabajosRealizados.Font = new System.Drawing.Font("Gadugi", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTrabajosRealizados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(75)))), ((int)(((byte)(99)))));
-            this.btnTrabajosRealizados.Location = new System.Drawing.Point(106, 425);
+            this.btnTrabajosRealizados.Location = new System.Drawing.Point(92, 408);
+            this.btnTrabajosRealizados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnTrabajosRealizados.Name = "btnTrabajosRealizados";
-            this.btnTrabajosRealizados.Size = new System.Drawing.Size(221, 48);
+            this.btnTrabajosRealizados.Size = new System.Drawing.Size(295, 59);
             this.btnTrabajosRealizados.TabIndex = 3;
             this.btnTrabajosRealizados.Text = "Trabajos Realizados";
             this.btnTrabajosRealizados.UseVisualStyleBackColor = false;
@@ -141,9 +147,10 @@
             this.btnEmpleados.BackColor = System.Drawing.Color.White;
             this.btnEmpleados.Font = new System.Drawing.Font("Gadugi", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEmpleados.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(75)))), ((int)(((byte)(99)))));
-            this.btnEmpleados.Location = new System.Drawing.Point(106, 493);
+            this.btnEmpleados.Location = new System.Drawing.Point(92, 492);
+            this.btnEmpleados.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEmpleados.Name = "btnEmpleados";
-            this.btnEmpleados.Size = new System.Drawing.Size(221, 48);
+            this.btnEmpleados.Size = new System.Drawing.Size(295, 59);
             this.btnEmpleados.TabIndex = 4;
             this.btnEmpleados.Text = "Ver Empleados";
             this.btnEmpleados.UseVisualStyleBackColor = false;
@@ -157,9 +164,10 @@
             this.btnInventario.BackColor = System.Drawing.Color.White;
             this.btnInventario.Font = new System.Drawing.Font("Gadugi", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnInventario.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(75)))), ((int)(((byte)(99)))));
-            this.btnInventario.Location = new System.Drawing.Point(106, 562);
+            this.btnInventario.Location = new System.Drawing.Point(92, 577);
+            this.btnInventario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnInventario.Name = "btnInventario";
-            this.btnInventario.Size = new System.Drawing.Size(221, 48);
+            this.btnInventario.Size = new System.Drawing.Size(295, 59);
             this.btnInventario.TabIndex = 5;
             this.btnInventario.Text = "Ver Inventario";
             this.btnInventario.UseVisualStyleBackColor = false;
@@ -173,9 +181,10 @@
             this.btnManoObra.BackColor = System.Drawing.Color.White;
             this.btnManoObra.Font = new System.Drawing.Font("Gadugi", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnManoObra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(75)))), ((int)(((byte)(99)))));
-            this.btnManoObra.Location = new System.Drawing.Point(106, 628);
+            this.btnManoObra.Location = new System.Drawing.Point(92, 658);
+            this.btnManoObra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnManoObra.Name = "btnManoObra";
-            this.btnManoObra.Size = new System.Drawing.Size(221, 48);
+            this.btnManoObra.Size = new System.Drawing.Size(295, 59);
             this.btnManoObra.TabIndex = 6;
             this.btnManoObra.Text = "Mano de Obra";
             this.btnManoObra.UseVisualStyleBackColor = false;
@@ -189,9 +198,10 @@
             this.btnBitacora.BackColor = System.Drawing.Color.White;
             this.btnBitacora.Font = new System.Drawing.Font("Gadugi", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnBitacora.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(75)))), ((int)(((byte)(99)))));
-            this.btnBitacora.Location = new System.Drawing.Point(106, 695);
+            this.btnBitacora.Location = new System.Drawing.Point(92, 740);
+            this.btnBitacora.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnBitacora.Name = "btnBitacora";
-            this.btnBitacora.Size = new System.Drawing.Size(221, 48);
+            this.btnBitacora.Size = new System.Drawing.Size(295, 59);
             this.btnBitacora.TabIndex = 7;
             this.btnBitacora.Text = "Bitácora";
             this.btnBitacora.UseVisualStyleBackColor = false;
@@ -203,9 +213,10 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.img8;
-            this.pictureBox2.Location = new System.Drawing.Point(446, 549);
+            this.pictureBox2.Location = new System.Drawing.Point(494, 531);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(376, 275);
+            this.pictureBox2.Size = new System.Drawing.Size(356, 209);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
@@ -213,9 +224,10 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.img7;
-            this.pictureBox1.Location = new System.Drawing.Point(446, 245);
+            this.pictureBox1.Location = new System.Drawing.Point(494, 287);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(376, 275);
+            this.pictureBox1.Size = new System.Drawing.Size(356, 209);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
@@ -223,9 +235,10 @@
             // pb4
             // 
             this.pb4.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.img1;
-            this.pb4.Location = new System.Drawing.Point(1252, 549);
+            this.pb4.Location = new System.Drawing.Point(1291, 531);
+            this.pb4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pb4.Name = "pb4";
-            this.pb4.Size = new System.Drawing.Size(376, 275);
+            this.pb4.Size = new System.Drawing.Size(356, 209);
             this.pb4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb4.TabIndex = 11;
             this.pb4.TabStop = false;
@@ -233,9 +246,10 @@
             // pb3
             // 
             this.pb3.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.img3;
-            this.pb3.Location = new System.Drawing.Point(850, 549);
+            this.pb3.Location = new System.Drawing.Point(895, 531);
+            this.pb3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pb3.Name = "pb3";
-            this.pb3.Size = new System.Drawing.Size(376, 275);
+            this.pb3.Size = new System.Drawing.Size(356, 209);
             this.pb3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb3.TabIndex = 10;
             this.pb3.TabStop = false;
@@ -243,10 +257,10 @@
             // img1
             // 
             this.img1.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.img2;
-            this.img1.Location = new System.Drawing.Point(1252, 245);
+            this.img1.Location = new System.Drawing.Point(1291, 287);
             this.img1.Margin = new System.Windows.Forms.Padding(0);
             this.img1.Name = "img1";
-            this.img1.Size = new System.Drawing.Size(376, 275);
+            this.img1.Size = new System.Drawing.Size(356, 209);
             this.img1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.img1.TabIndex = 9;
             this.img1.TabStop = false;
@@ -255,9 +269,10 @@
             // pb1
             // 
             this.pb1.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.img6;
-            this.pb1.Location = new System.Drawing.Point(850, 245);
+            this.pb1.Location = new System.Drawing.Point(895, 287);
+            this.pb1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pb1.Name = "pb1";
-            this.pb1.Size = new System.Drawing.Size(376, 275);
+            this.pb1.Size = new System.Drawing.Size(356, 209);
             this.pb1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb1.TabIndex = 8;
             this.pb1.TabStop = false;
@@ -265,9 +280,9 @@
             // 
             // HomeForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1653, 857);
+            this.ClientSize = new System.Drawing.Size(1712, 935);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pb4);
@@ -283,6 +298,7 @@
             this.Controls.Add(this.btnAgregarTrabajo);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "HomeForm";
             this.Text = "HomeForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
