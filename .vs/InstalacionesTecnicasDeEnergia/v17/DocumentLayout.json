@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\detalletrabajoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\detalletrabajoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\detalletrabajoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\detalletrabajoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\trabajospendientesform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\agregartrabajoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\agregartrabajoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\presupuestoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\presupuestoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\presupuestoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\presupuestoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\agregartrabajoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\agregartrabajoform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\empleadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|c:\\users\\skysa\\documents\\ite-final\\instalacionestecnicasdeenergia\\instalacionestecnicasdeenergia\\forms\\trabajosrealizadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\trabajosrealizadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\encargadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\encargadosform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\instalacionestecnicasdeenergia\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{AD0D776A-E319-409A-9F24-D5DAB17DAC94}|InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia.csproj|solutionrelative:instalacionestecnicasdeenergia\\forms\\homeform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,85 +66,117 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TrabajosPendientesForm.cs",
-              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAgwGUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "PresupuestoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
+              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T22:13:02.827Z"
+              "WhenOpened": "2025-02-02T06:46:31.824Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DetalleTrabajoForm.cs",
-              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\DetalleTrabajoForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\DetalleTrabajoForm.cs",
-              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\DetalleTrabajoForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\DetalleTrabajoForm.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAADwvywAAAAJAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "PresupuestoForm.cs",
+              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
+              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\PresupuestoForm.cs",
+              "ViewState": "AgIAAEYBAAAAAAAAAAAgwEkBAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T23:37:42.493Z",
+              "WhenOpened": "2025-02-02T04:44:32.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DetalleTrabajoForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\DetalleTrabajoForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\DetalleTrabajoForm.cs",
-              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\DetalleTrabajoForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\DetalleTrabajoForm.cs [Dise\u00F1o]",
+              "Title": "AgregarTrabajoForm.cs",
+              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\AgregarTrabajoForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\AgregarTrabajoForm.cs",
+              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\AgregarTrabajoForm.cs",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\AgregarTrabajoForm.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAkwGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T22:12:52.052Z"
+              "WhenOpened": "2025-02-02T05:06:23.212Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TrabajosPendientesForm.cs [Dise\u00F1o]",
+              "DocumentIndex": 0,
+              "Title": "TrabajosPendientesForm.cs",
               "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
               "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
-              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosPendientesForm.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAqwIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T22:12:46.419Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EncargadosForm.cs",
-              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\EncargadosForm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-01T22:07:56.962Z"
+              "WhenOpened": "2025-02-02T04:25:57.696Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
+              "Title": "AgregarTrabajoForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\AgregarTrabajoForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\AgregarTrabajoForm.cs",
+              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\AgregarTrabajoForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\AgregarTrabajoForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T05:06:20.119Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmpleadosForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
+              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T05:12:00.522Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmpleadosForm.cs",
+              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
+              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\EmpleadosForm.cs",
+              "ViewState": "AgIAAEQBAAAAAAAAAAAwwFgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T05:12:08.281Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrabajosRealizadosForm.cs",
+              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
+              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
+              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
+              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\TrabajosRealizadosForm.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwC4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-02T04:46:09.062Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Program.cs",
               "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Program.cs",
               "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Program.cs",
               "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T23:45:10.225Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "HomeForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs",
-              "RelativeDocumentMoniker": "InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs",
-              "ToolTip": "C:\\Users\\skysa\\Documents\\Ite-Final\\InstalacionesTecnicasDeEnergia\\InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs [Dise\u00F1o]",
-              "RelativeToolTip": "InstalacionesTecnicasDeEnergia\\Forms\\HomeForm.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-31T23:42:47.622Z"
+              "WhenOpened": "2025-01-31T23:45:10.225Z",
+              "EditorCaption": ""
             }
           ]
         }

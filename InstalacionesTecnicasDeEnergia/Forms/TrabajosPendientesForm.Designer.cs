@@ -45,6 +45,7 @@
             this.btnDetalles = new System.Windows.Forms.Button();
             this.btnImprimir = new System.Windows.Forms.Button();
             this.btnFinalizar = new System.Windows.Forms.Button();
+            this.editarTrabajo = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -71,16 +72,17 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1067, 161);
             this.panel1.TabIndex = 4;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // pbLogo
             // 
             this.pbLogo.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.ITE;
             this.pbLogo.Location = new System.Drawing.Point(28, 14);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
             this.pbLogo.Name = "pbLogo";
             this.pbLogo.Size = new System.Drawing.Size(155, 133);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -92,7 +94,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(16, 180);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -113,7 +115,7 @@
             // txtNombreCliente
             // 
             this.txtNombreCliente.Location = new System.Drawing.Point(228, 405);
-            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.Size = new System.Drawing.Size(239, 22);
             this.txtNombreCliente.TabIndex = 7;
@@ -121,7 +123,7 @@
             // txtDescripcion
             // 
             this.txtDescripcion.Location = new System.Drawing.Point(228, 463);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(239, 56);
@@ -140,7 +142,7 @@
             // txtLugar
             // 
             this.txtLugar.Location = new System.Drawing.Point(228, 545);
-            this.txtLugar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLugar.Margin = new System.Windows.Forms.Padding(4);
             this.txtLugar.Multiline = true;
             this.txtLugar.Name = "txtLugar";
             this.txtLugar.Size = new System.Drawing.Size(239, 59);
@@ -159,7 +161,7 @@
             // txtFecha
             // 
             this.txtFecha.Location = new System.Drawing.Point(719, 404);
-            this.txtFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFecha.Margin = new System.Windows.Forms.Padding(4);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(239, 22);
             this.txtFecha.TabIndex = 13;
@@ -177,7 +179,7 @@
             // txtPresupuesto
             // 
             this.txtPresupuesto.Location = new System.Drawing.Point(719, 466);
-            this.txtPresupuesto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPresupuesto.Margin = new System.Windows.Forms.Padding(4);
             this.txtPresupuesto.Name = "txtPresupuesto";
             this.txtPresupuesto.Size = new System.Drawing.Size(239, 22);
             this.txtPresupuesto.TabIndex = 15;
@@ -196,7 +198,7 @@
             // 
             this.btnDetalles.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDetalles.Location = new System.Drawing.Point(548, 526);
-            this.btnDetalles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDetalles.Margin = new System.Windows.Forms.Padding(4);
             this.btnDetalles.Name = "btnDetalles";
             this.btnDetalles.Size = new System.Drawing.Size(503, 28);
             this.btnDetalles.TabIndex = 16;
@@ -207,7 +209,7 @@
             // btnImprimir
             // 
             this.btnImprimir.Location = new System.Drawing.Point(548, 577);
-            this.btnImprimir.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnImprimir.Margin = new System.Windows.Forms.Padding(4);
             this.btnImprimir.Name = "btnImprimir";
             this.btnImprimir.Size = new System.Drawing.Size(503, 28);
             this.btnImprimir.TabIndex = 17;
@@ -217,7 +219,7 @@
             // btnFinalizar
             // 
             this.btnFinalizar.Location = new System.Drawing.Point(36, 652);
-            this.btnFinalizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnFinalizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnFinalizar.Name = "btnFinalizar";
             this.btnFinalizar.Size = new System.Drawing.Size(1015, 28);
             this.btnFinalizar.TabIndex = 18;
@@ -225,12 +227,24 @@
             this.btnFinalizar.UseVisualStyleBackColor = true;
             this.btnFinalizar.Click += new System.EventHandler(this.btnFinalizar_Click);
             // 
+            // editarTrabajo
+            // 
+            this.editarTrabajo.Location = new System.Drawing.Point(548, 613);
+            this.editarTrabajo.Margin = new System.Windows.Forms.Padding(4);
+            this.editarTrabajo.Name = "editarTrabajo";
+            this.editarTrabajo.Size = new System.Drawing.Size(503, 28);
+            this.editarTrabajo.TabIndex = 19;
+            this.editarTrabajo.Text = "Editar Trabajo";
+            this.editarTrabajo.UseVisualStyleBackColor = true;
+            this.editarTrabajo.Click += new System.EventHandler(this.button1_Click);
+            // 
             // TrabajosPendientesForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(1067, 801);
+            this.Controls.Add(this.editarTrabajo);
             this.Controls.Add(this.btnFinalizar);
             this.Controls.Add(this.btnImprimir);
             this.Controls.Add(this.btnDetalles);
@@ -246,7 +260,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TrabajosPendientesForm";
             this.Text = "TrabajosPendientesForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -279,5 +293,6 @@
         private System.Windows.Forms.Button btnDetalles;
         private System.Windows.Forms.Button btnImprimir;
         private System.Windows.Forms.Button btnFinalizar;
+        private System.Windows.Forms.Button editarTrabajo;
     }
 }

@@ -45,6 +45,8 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void btnDetalles_Click(object sender, EventArgs e)
         {
             DetalleTrabajoForm frm = new DetalleTrabajoForm();
+            frm.IdSeleccionado = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
+            frm.procedencia = false;
             frm.Show();
             this.Hide();
         }

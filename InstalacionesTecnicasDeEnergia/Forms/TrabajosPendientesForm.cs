@@ -54,9 +54,10 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void btnDetalles_Click(object sender, EventArgs e)
         {
             DetalleTrabajoForm frm = new DetalleTrabajoForm();
+            frm.IdSeleccionado = dataGridView1.SelectedRows[0].Cells["Id"].Value.ToString();
+            frm.procedencia = true;
             frm.Show();
             this.Hide();
-            //DetalleTrabajoForm ObjId = new DetalleTrabajoForm(idSeleccionado);
         }
 
         private void TrabajosPendientesForm_Load(object sender, EventArgs e)
@@ -97,8 +98,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
             string idSeleccionadoStr = dataGridView1.CurrentRow.Cells["Id"].Value.ToString();
             DetalleTrabajoForm nuevoForm = new DetalleTrabajoForm();
-            nuevoForm.IdSeleccionado = idSeleccionadoStr;
-            Console.WriteLine(nuevoForm.IdSeleccionado);
+           
         }
 
         private void btnFinalizar_Click(object sender, EventArgs e)
@@ -133,6 +133,19 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void pbLogo_Click(object sender, EventArgs e)
         {
             HomeForm frm = new HomeForm();
+            frm.Show();
+            this.Hide();
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            AgregarTrabajoForm frm = new AgregarTrabajoForm();
+            frm.idTrabajo = dataGridView1.SelectedRows[0].Cells["Id"].Value.ToString();
             frm.Show();
             this.Hide();
         }

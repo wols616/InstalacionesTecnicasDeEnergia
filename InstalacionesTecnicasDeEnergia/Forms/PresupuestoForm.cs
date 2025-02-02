@@ -18,7 +18,7 @@ namespace InstalacionesTecnicasDeEnergia.Forms
     public partial class PresupuestoForm : Form
     {
         Conexion conexion = new Conexion();
-
+        public string idTrabajo;
         Trabajo trabajoPendiente = new Trabajo();
 
         public PresupuestoForm()
@@ -221,12 +221,28 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void btnAgregarMaterial_Click(object sender, EventArgs e)
         {
             string idMaterialSeleccionado = this.cbxMaterial.SelectedValue.ToString();
+            int cantidadNueva = int.Parse(this.txtCantidad.Text);
 
+            // Buscar si el material ya está en el DataGridView
+            foreach (DataGridViewRow row in dgvMateriales.Rows)
+            {
+                if (row.Cells["Id"].Value != null && row.Cells["Id"].Value.ToString() == idMaterialSeleccionado)
+                {
+                    // Si ya existe, sumamos la cantidad
+                    int cantidadActual = int.Parse(row.Cells["Cantidad"].Value.ToString());
+                    row.Cells["Cantidad"].Value = cantidadActual + cantidadNueva;
+
+                    actualizarPresupuesto();
+                    return; // Salimos para evitar agregarlo nuevamente
+                }
+            }
+
+            // Si no está en el DataGridView, lo agregamos
             Material material = conexion.MaterialDb.Find(d => d.Id == idMaterialSeleccionado).FirstOrDefault();
 
             if (material != null)
             {
-                dgvMateriales.Rows.Add(idMaterialSeleccionado, material.Nombre, this.txtCantidad.Text, material.PrecioVenta);
+                dgvMateriales.Rows.Add(idMaterialSeleccionado, material.Nombre, cantidadNueva, material.PrecioVenta);
             }
             else
             {
@@ -239,12 +255,28 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void btnAgregarManoObra_Click(object sender, EventArgs e)
         {
             string idManoObraSeleccionada = this.cbxObra.SelectedValue.ToString();
+            int cantidadNueva = int.Parse(this.txtCantidadMano.Text);
 
+            // Buscar si la mano de obra ya está en el DataGridView
+            foreach (DataGridViewRow row in dgvManoObra.Rows)
+            {
+                if (row.Cells["Id"].Value != null && row.Cells["Id"].Value.ToString() == idManoObraSeleccionada)
+                {
+                    // Si ya existe, sumamos la cantidad
+                    int cantidadActual = int.Parse(row.Cells["Cantidad"].Value.ToString());
+                    row.Cells["Cantidad"].Value = cantidadActual + cantidadNueva;
+
+                    actualizarPresupuesto();
+                    return; // Salimos para evitar agregarlo nuevamente
+                }
+            }
+
+            // Si no está en el DataGridView, lo agregamos
             ManoObra manoObra = conexion.ManoObraDb.Find(d => d.Id == idManoObraSeleccionada).FirstOrDefault();
 
             if (manoObra != null)
             {
-                dgvManoObra.Rows.Add(idManoObraSeleccionada, manoObra.Nombre, this.txtCantidadMano.Text, manoObra.Precio);
+                dgvManoObra.Rows.Add(idManoObraSeleccionada, manoObra.Nombre, cantidadNueva, manoObra.Precio);
             }
             else
             {
@@ -295,9 +327,27 @@ namespace InstalacionesTecnicasDeEnergia.Forms
 
         private void pbLogo_Click(object sender, EventArgs e)
         {
-            AgregarTrabajoForm frm = new AgregarTrabajoForm();
-            frm.Show();
-            this.Hide();
+            if (idTrabajo != null)
+            {
+                DialogResult resultadoDialogo = MessageBox.Show(
+                           "¿Estás seguro de que quieres cancelar la actualización de datos?",
+                           "Confirmación",
+                           MessageBoxButtons.YesNo,
+                           MessageBoxIcon.Question);
+
+                if (resultadoDialogo == DialogResult.Yes)
+                {
+                    TrabajosPendientesForm frm = new TrabajosPendientesForm();
+                    frm.Show();
+                    this.Hide();
+                }
+            }
+            else
+            {
+                AgregarTrabajoForm frm = new AgregarTrabajoForm();
+                frm.Show();
+                this.Hide();
+            }      
         }
 
         private void btnAgregarMaterial_Paint(object sender, PaintEventArgs e)
@@ -544,6 +594,15 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         private void button1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void PresupuestoForm_Load(object sender, EventArgs e)
+        {
+            if (idTrabajo != null)
+            {
+                Trabajo trabajo = conexion.TrabajoDb.Find(d => d.Id == idTrabajo).FirstOrDefault();
+                
+            }
         }
     }
 }

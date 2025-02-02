@@ -55,7 +55,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1395, 161);
             this.panel1.TabIndex = 17;
@@ -64,7 +64,7 @@
             // 
             this.pbLogo.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.ITE;
             this.pbLogo.Location = new System.Drawing.Point(28, 14);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
             this.pbLogo.Name = "pbLogo";
             this.pbLogo.Size = new System.Drawing.Size(155, 133);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -90,7 +90,7 @@
             // 
             this.btnDetalles.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDetalles.Location = new System.Drawing.Point(835, 510);
-            this.btnDetalles.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDetalles.Margin = new System.Windows.Forms.Padding(4);
             this.btnDetalles.Name = "btnDetalles";
             this.btnDetalles.Size = new System.Drawing.Size(503, 28);
             this.btnDetalles.TabIndex = 29;
@@ -101,7 +101,7 @@
             // txtPresupuesto
             // 
             this.txtPresupuesto.Location = new System.Drawing.Point(1005, 450);
-            this.txtPresupuesto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPresupuesto.Margin = new System.Windows.Forms.Padding(4);
             this.txtPresupuesto.Name = "txtPresupuesto";
             this.txtPresupuesto.Size = new System.Drawing.Size(239, 22);
             this.txtPresupuesto.TabIndex = 28;
@@ -119,7 +119,7 @@
             // txtFecha
             // 
             this.txtFecha.Location = new System.Drawing.Point(1005, 388);
-            this.txtFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFecha.Margin = new System.Windows.Forms.Padding(4);
             this.txtFecha.Name = "txtFecha";
             this.txtFecha.Size = new System.Drawing.Size(239, 22);
             this.txtFecha.TabIndex = 26;
@@ -137,7 +137,7 @@
             // txtLugar
             // 
             this.txtLugar.Location = new System.Drawing.Point(515, 529);
-            this.txtLugar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtLugar.Margin = new System.Windows.Forms.Padding(4);
             this.txtLugar.Multiline = true;
             this.txtLugar.Name = "txtLugar";
             this.txtLugar.Size = new System.Drawing.Size(239, 59);
@@ -156,7 +156,7 @@
             // txtDescripcion
             // 
             this.txtDescripcion.Location = new System.Drawing.Point(515, 447);
-            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescripcion.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescripcion.Multiline = true;
             this.txtDescripcion.Name = "txtDescripcion";
             this.txtDescripcion.Size = new System.Drawing.Size(239, 56);
@@ -175,7 +175,7 @@
             // txtNombreCliente
             // 
             this.txtNombreCliente.Location = new System.Drawing.Point(515, 389);
-            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtNombreCliente.Margin = new System.Windows.Forms.Padding(4);
             this.txtNombreCliente.Name = "txtNombreCliente";
             this.txtNombreCliente.Size = new System.Drawing.Size(239, 22);
             this.txtNombreCliente.TabIndex = 20;
@@ -195,7 +195,7 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(303, 164);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
@@ -222,7 +222,7 @@
             this.Controls.Add(this.txtNombreCliente);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "TrabajosRealizadosForm";
             this.Text = "TrabajosRealizadosForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

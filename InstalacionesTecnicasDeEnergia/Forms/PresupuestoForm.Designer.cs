@@ -45,8 +45,8 @@
             this.dgvManoObra = new System.Windows.Forms.DataGridView();
             this.btnAgregarManoObra = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
             this.txtCantidadMano = new System.Windows.Forms.NumericUpDown();
+            this.label3 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.txtDescuento = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
@@ -71,7 +71,7 @@
             this.panel1.Controls.Add(this.label1);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1743, 163);
             this.panel1.TabIndex = 2;
@@ -80,7 +80,7 @@
             // 
             this.pbLogo.Image = global::InstalacionesTecnicasDeEnergia.Properties.Resources.ITE_Propio;
             this.pbLogo.Location = new System.Drawing.Point(28, 14);
-            this.pbLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbLogo.Margin = new System.Windows.Forms.Padding(4);
             this.pbLogo.Name = "pbLogo";
             this.pbLogo.Size = new System.Drawing.Size(155, 133);
             this.pbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -112,7 +112,7 @@
             this.panel2.Controls.Add(this.dgvMateriales);
             this.panel2.Controls.Add(this.txtCantidad);
             this.panel2.Location = new System.Drawing.Point(80, 232);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(589, 594);
             this.panel2.TabIndex = 3;
@@ -132,7 +132,7 @@
             this.btnEliminarMaterial.Font = new System.Drawing.Font("Gadugi", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarMaterial.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
             this.btnEliminarMaterial.Location = new System.Drawing.Point(322, 534);
-            this.btnEliminarMaterial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminarMaterial.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminarMaterial.Name = "btnEliminarMaterial";
             this.btnEliminarMaterial.Size = new System.Drawing.Size(140, 36);
             this.btnEliminarMaterial.TabIndex = 8;
@@ -147,7 +147,7 @@
             this.btnAgregarMaterial.Font = new System.Drawing.Font("Gadugi", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarMaterial.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
             this.btnAgregarMaterial.Location = new System.Drawing.Point(119, 534);
-            this.btnAgregarMaterial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgregarMaterial.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregarMaterial.Name = "btnAgregarMaterial";
             this.btnAgregarMaterial.Size = new System.Drawing.Size(140, 36);
             this.btnAgregarMaterial.TabIndex = 7;
@@ -178,7 +178,7 @@
             this.dgvMateriales.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvMateriales.GridColor = System.Drawing.SystemColors.ButtonHighlight;
             this.dgvMateriales.Location = new System.Drawing.Point(69, 26);
-            this.dgvMateriales.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvMateriales.Margin = new System.Windows.Forms.Padding(4);
             this.dgvMateriales.Name = "dgvMateriales";
             this.dgvMateriales.RowHeadersWidth = 51;
             this.dgvMateriales.Size = new System.Drawing.Size(467, 354);
@@ -188,7 +188,7 @@
             // 
             this.txtCantidad.Font = new System.Drawing.Font("Gadugi", 12F);
             this.txtCantidad.Location = new System.Drawing.Point(243, 464);
-            this.txtCantidad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtCantidad.Margin = new System.Windows.Forms.Padding(4);
             this.txtCantidad.Name = "txtCantidad";
             this.txtCantidad.Size = new System.Drawing.Size(291, 34);
             this.txtCantidad.TabIndex = 3;
@@ -218,7 +218,7 @@
             this.panel3.Controls.Add(this.label7);
             this.panel3.Controls.Add(this.txtCantidadMano);
             this.panel3.Location = new System.Drawing.Point(711, 232);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(593, 594);
             this.panel3.TabIndex = 4;
@@ -238,7 +238,7 @@
             this.btnEliminarManoObra.Font = new System.Drawing.Font("Gadugi", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnEliminarManoObra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(200)))), ((int)(((byte)(29)))), ((int)(((byte)(37)))));
             this.btnEliminarManoObra.Location = new System.Drawing.Point(338, 534);
-            this.btnEliminarManoObra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminarManoObra.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminarManoObra.Name = "btnEliminarManoObra";
             this.btnEliminarManoObra.Size = new System.Drawing.Size(140, 36);
             this.btnEliminarManoObra.TabIndex = 15;
@@ -254,7 +254,7 @@
             this.dgvManoObra.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
             this.dgvManoObra.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgvManoObra.Location = new System.Drawing.Point(64, 26);
-            this.dgvManoObra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dgvManoObra.Margin = new System.Windows.Forms.Padding(4);
             this.dgvManoObra.Name = "dgvManoObra";
             this.dgvManoObra.RowHeadersWidth = 51;
             this.dgvManoObra.Size = new System.Drawing.Size(467, 354);
@@ -266,7 +266,7 @@
             this.btnAgregarManoObra.Font = new System.Drawing.Font("Gadugi", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarManoObra.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(56)))), ((int)(((byte)(176)))), ((int)(((byte)(0)))));
             this.btnAgregarManoObra.Location = new System.Drawing.Point(126, 534);
-            this.btnAgregarManoObra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgregarManoObra.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregarManoObra.Name = "btnAgregarManoObra";
             this.btnAgregarManoObra.Size = new System.Drawing.Size(140, 36);
             this.btnAgregarManoObra.TabIndex = 14;
@@ -289,6 +289,15 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "Cantidad:";
             // 
+            // txtCantidadMano
+            // 
+            this.txtCantidadMano.Font = new System.Drawing.Font("Gadugi", 12F);
+            this.txtCantidadMano.Location = new System.Drawing.Point(238, 464);
+            this.txtCantidadMano.Margin = new System.Windows.Forms.Padding(4);
+            this.txtCantidadMano.Name = "txtCantidadMano";
+            this.txtCantidadMano.Size = new System.Drawing.Size(293, 34);
+            this.txtCantidadMano.TabIndex = 10;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -300,15 +309,6 @@
             this.label3.Size = new System.Drawing.Size(161, 27);
             this.label3.TabIndex = 1;
             this.label3.Text = "Mano de obra";
-            // 
-            // txtCantidadMano
-            // 
-            this.txtCantidadMano.Font = new System.Drawing.Font("Gadugi", 12F);
-            this.txtCantidadMano.Location = new System.Drawing.Point(238, 464);
-            this.txtCantidadMano.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.txtCantidadMano.Name = "txtCantidadMano";
-            this.txtCantidadMano.Size = new System.Drawing.Size(293, 34);
-            this.txtCantidadMano.TabIndex = 10;
             // 
             // label8
             // 
@@ -326,7 +326,7 @@
             // 
             this.txtDescuento.Font = new System.Drawing.Font("Gadugi", 13.8F, System.Drawing.FontStyle.Bold);
             this.txtDescuento.Location = new System.Drawing.Point(1583, 498);
-            this.txtDescuento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescuento.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescuento.Name = "txtDescuento";
             this.txtDescuento.Size = new System.Drawing.Size(160, 38);
             this.txtDescuento.TabIndex = 1;
@@ -361,7 +361,7 @@
             this.btnSiguiente.Font = new System.Drawing.Font("Gadugi", 10.2F, System.Drawing.FontStyle.Bold);
             this.btnSiguiente.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(75)))), ((int)(((byte)(99)))));
             this.btnSiguiente.Location = new System.Drawing.Point(1457, 760);
-            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSiguiente.Margin = new System.Windows.Forms.Padding(4);
             this.btnSiguiente.Name = "btnSiguiente";
             this.btnSiguiente.Size = new System.Drawing.Size(251, 50);
             this.btnSiguiente.TabIndex = 9;
@@ -413,10 +413,11 @@
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "PresupuestoForm";
             this.Text = "PresupuestoForm";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.PresupuestoForm_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).EndInit();

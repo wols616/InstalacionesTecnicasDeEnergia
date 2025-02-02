@@ -10,13 +10,16 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MongoDB.Driver;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Security.Cryptography.X509Certificates;
 
 namespace InstalacionesTecnicasDeEnergia.Forms
 {
     public partial class DetalleTrabajoForm : Form
     {
         Conexion conexion = new Conexion();
-        public string IdSeleccionado { get; set; }
+        public string IdSeleccionado;
+        public bool procedencia;
+
 
         public DetalleTrabajoForm()
         {
@@ -47,95 +50,80 @@ namespace InstalacionesTecnicasDeEnergia.Forms
         public void CargarTablas()
         {
 
-            //// Suponiendo que tienes la clase Trabajo y que la colección de trabajos se llama 'TrabajoDb'
-            //var trabajo = conexion.TrabajoDb.Find(t => t.Id == idSeleccionado).FirstOrDefault();
+            Trabajo trabajo = conexion.TrabajoDb.Find(d => d.Id == IdSeleccionado).FirstOrDefault();
 
-            //if (trabajo != null)
-            //{
-            //    // Listado de encargados
-            //    var encargadosIds = trabajo.Encargados.Select(e => e.Id).ToList(); // Suponiendo que Encargados es una lista de objetos con propiedad 'Id'
+            List<string> encargadosIds = trabajo.Encargados.Select(e => e.EmpleadoId).ToList();
+            List<Empleado> encargados = conexion.EmpleadoDb.Find(e => encargadosIds.Contains(e.Id))
+                .ToList();
 
-            //    // Aquí puedes recorrer los IDs de los encargados
-            //    foreach (var encargadoId in encargadosIds)
-            //    {
-            //        // Buscar el empleado por el ID
-            //        var empleado = conexion.EmpleadoDb.Find(e => e.Id == encargadoId).FirstOrDefault();
-
-            //        if (empleado != null)
-            //        {
-            //            Console.WriteLine($"Nombre del encargado: {empleado.Nombres} {empleado.Apellidos}");
-            //        }
-            //    }
-            //}
-
-
-
-
-
-
-
-            //List<Trabajo> ListaTrabajos = conexion.TrabajoDb.Find(d => d.Id == IdSeleccionado).ToList();
-
-            List<Empleado> ListaEmpleado = conexion.EmpleadoDb.Find(d => true).ToList();
             List<TipoContrato_Empleado_> ListaTipoEmpleado = conexion.TipoEmpleadoDb.Find(d => true).ToList();
-
-            List<ManoObra> ListaManoObra = conexion.ManoObraDb.Find(d => true).ToList();
             List<CategoriaManoObra> ListaCategoriaManoObra = conexion.CategoriaManoObraDb.Find(d => true).ToList();
-
-            List<Material> ListaMateriales = conexion.MaterialDb.Find(d => true).ToList();
             List<CategoriaMaterial> ListaCategoriaMaterial = conexion.CategoriaMaterialDb.Find(d => true).ToList();
 
-         //   List<MaterialUsado> ListaMaterialUsado = conexion.MaterialDb.Find(d => true).ToList();
 
-            var Encargados = ListaEmpleado.Select(e => new
-            { 
+            List<string> manosObrasIds = trabajo.ManoObra.Select(e => e.ManoObraId).ToList();
+            List<ManoObra> manosObras = conexion.ManoObraDb.Find(e => manosObrasIds.Contains(e.Id)).ToList();
+
+            List<string> materialesIds = trabajo.Materiales.Select(e => e.MaterialId).ToList();
+            List<Material> materiales = conexion.MaterialDb.Find(e => materialesIds.Contains(e.Id)).ToList();
+
+            var Encargados = encargados.Select(e => new
+            {
                 e.Nombres,
                 e.Apellidos,
                 e.Dui,
-                e.TelefonoCelular, 
+                e.TelefonoCelular,
                 e.TelefonoCasa,
                 TipoContrato = ListaTipoEmpleado.FirstOrDefault(t => t.Id == e.TipoContrato)?.Nombre ?? "Desconocido",
                 e.Salario
             }).ToList();
 
-            var Materiales = ListaMateriales.Select(e => new
+            var Materiales = materiales.Select(e => new
             {
                 e.Nombre,
                 Categoria = ListaCategoriaMaterial.FirstOrDefault(t => t.Id == e.CategoriaId)?.Nombre ?? "Desconocido",
                 e.Marca,
-                //Cantidad = ListaCategoriaMaterial.FirstOrDefault(t => t.Id == e.Cantidad)?.Cantidad ?? "Desconocido"
 
             }).ToList();
 
-            var ManoObras = ListaManoObra.Select(e => new { 
+            var ManoObras = manosObras.Select(e => new {
                 e.Nombre,
                 e.Descripcion,
                 e.Precio,
                 TipoManoObra = ListaCategoriaManoObra.FirstOrDefault(t => t.Id == e.CategoriaId)?.Nombre ?? "Desconocido"
             }).ToList();
 
-            //var Trabajos = ListaTrabajos.Select(e => new
-            //{
-            //    Cantidad = ListaTrabajos.FirstOrDefault(t => t.Materiales == e.cantidad
-
-            //}).ToList();
-            // Tabla.DataSource = empleadosConTipoContrato;
-
             TablaEncargados.DataSource = Encargados;
             TablaMateriales.DataSource = Materiales;
-            TablaManoObra.DataSource = ManoObras;            
+            TablaManoObra.DataSource = ManoObras;
         }
 
         private void DetalleTrabajoForm_Load(object sender, EventArgs e)
         {
             CargarTablas();
+            Trabajo trabajo = conexion.TrabajoDb.Find(d => d.Id == IdSeleccionado).FirstOrDefault();
+            this.txtNombreCliente.Text = trabajo.NombreCliente;
+            this.txtPresupuestoTotal.Text = trabajo.Presupuesto.ToString();
+            this.txtFecha.Text = trabajo.Fecha.ToString();
+            this.txtDescripcion.Text = trabajo.DescripcionProyecto;
+            this.txtLugar.Text = trabajo.Lugar;
         }
 
         private void pbLogo_Click(object sender, EventArgs e)
         {
-            TrabajosPendientesForm form = new TrabajosPendientesForm();
-            form.Show();
-            this.Hide();
+            if(procedencia == true)
+            {
+                TrabajosPendientesForm form = new TrabajosPendientesForm();
+                form.Show();
+                this.Hide();
+            }
+            else
+            {
+                TrabajosRealizadosForm form = new TrabajosRealizadosForm();
+                form.Show();
+                this.Hide();
+            }
+           
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
